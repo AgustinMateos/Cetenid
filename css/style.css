@@ -16,7 +16,7 @@
     align-items: center
 }
 
-.indexSection2Button {
+.indexSection2ButtonContainer {
     display: flex;
     justify-content: center;
 }
@@ -63,7 +63,7 @@
     border: 1px solid #000000;
     border-radius: 20px;
     color: #ffffff;
-    font-size: 36px;
+    font-size: 26px;
     font-weight: 600;
     line-height: 44px;
     letter-spacing: 0em;
@@ -96,10 +96,9 @@
 body {
     background-color: #dedada;
 }
-
+.indexSection2ContainerCetenid{border-left: 3px solid #BF304A; padding: 20px;}
 .indexFooter {
     background: radial-gradient(126.78% 126.78% at 50% 124.3%, #F7985B 0%, #FFF157 52.33%, #FDFDF2 91.56%);
-   
     ;
 }
 
@@ -118,3 +117,55 @@ body {
     background-color: transparent;
     text-align: center;
 }
+.indexSection2Button{box-sizing: border-box;
+    width: 349px;
+    height: 52px;
+    background-color: #BF304A;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: Montserrat;
+    margin: 10px;}
+
+/*nosotros*/
+.nosotrosSection1Containerimgtexto{
+text-align: center;
+display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nosotrosSection1Containerimgtexto img{
+    width: 100%;
+    height: 500px;
+    }
+
+    .nosotrosSection1Containerimgtexto p{
+        width: 50%;
+        }
+
+.nosotrosSection1TituloTexto{
+    width: 50%;
+}
+
+.nosotrosSection1TituloTextoContainer{display: flex;    flex-direction: column;
+    align-items: center; width: 100%; text-align: center;}
+
+.nosotrosSectionTituloEquipo{
+    text-align: center;
+}
+
+.nosotrosSectionEquipoTexto{margin: 20px;text-align: center;}
+
+a .logo{max-height: 325px;
+    object-fit: cover;
+   }
+
+    .uk-navbar-nav>li.uk-active>a {
+        padding-top: 10px;
+        height: 107px;
+    }
