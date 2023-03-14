@@ -78,11 +78,13 @@
     margin: 20px;
 
 }
+
 .indexSection3ButtonContainer {
     display: flex;
     justify-content: center;
     margin: 20px;
 }
+
 .indexSection3ButtonContainer a {
     text-decoration: none;
     list-style-type: none;
@@ -124,6 +126,8 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
 }
 
 
@@ -218,12 +222,15 @@ a .logo {
     flex-wrap: nowrap;
     width: 100%;
 }
-.input{background: #D9D9D9BF;
+
+.input {
+    background: #D9D9D9BF;
     left: 768px;
     top: 812px;
     border-radius: 20px;
-    
+
 }
+
 .contactoButtonEnviar {
     box-sizing: border-box;
     width: 199px;
@@ -253,4 +260,37 @@ a .logo {
     background-color: transparent;
     color: #666;
     box-shadow: 0 5px 15px rgb(0 0 0 / 8%);
+}
+
+/*como trabajamos*/
+.cTsection1Container {
+    width: 100%;
+    margin: 40px;
+}
+
+.cTsection1ContainerFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.cTsectionContainerImg {
+    width: 300px;
+}
+
+.cTsectionContainerImg img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.cTsectionContainerTexto {
+    width: 40%;
+}
+
+.cTcontainerNuestrasTerapiasSoles{display: flex;     height: 400px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
