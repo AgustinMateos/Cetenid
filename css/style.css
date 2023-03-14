@@ -4,6 +4,30 @@
     box-sizing: border-box;
 }
 
+.uk-navbar-nav>li>a {
+    padding: 0 0;
+    color: black;
+    text-transform: uppercase;
+    transition: .1s ease-in-out;
+    position: relative;
+font-family: Quicksand;
+font-size: 24px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.uk-navbar-nav>li>a:hover {
+    padding: 0 0;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: underline;
+    transition: .1s ease-in-out;
+    transition-property: color, background-color;
+}
+
 .indexCarrouselImg {
     justify-self: stretch;
     align-self: stretch;
@@ -97,7 +121,7 @@
 
 
 .uk-navbar-container:not(.uk-navbar-transparent) {
-    background: linear-gradient(90deg, #F7985B 0%, #FFF157 27.08%, #FDFDF2 80.21%);
+    background: linear-gradient(270deg, #F7985B 0%, #FFF157 23.44%, #FDFDF2 73.96%);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
@@ -224,7 +248,8 @@ a .logo {
 }
 
 .input {
-    background: #D9D9D9BF;
+    background: #FEE1B5;
+    color: black;
     left: 768px;
     top: 812px;
     border-radius: 20px;
@@ -277,20 +302,40 @@ a .logo {
 
 .cTsectionContainerImg {
     width: 300px;
+
 }
 
 .cTsectionContainerImg img {
     height: 200px;
     width: 100%;
     object-fit: cover;
+    border-radius: 20px;
 }
 
 .cTsectionContainerTexto {
     width: 40%;
 }
 
-.cTcontainerNuestrasTerapiasSoles{display: flex;     height: 400px;
+.cTcontainerNuestrasTerapiasSoles {
+    display: flex;
+    height: 400px;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
+
+.imgBorder {
+    border-radius: 20px;
+}
+
+.sectiooon{max-height: 500px;}
+
+.uk-slideshow-items>* {
+    max-height: 500px;
+}
+
+.uk-position-small {
+    margin: 15px;
+    --uk-position-margin-offset: 155px;
+}
+
