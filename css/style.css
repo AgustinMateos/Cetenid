@@ -6,16 +6,16 @@
 
 .uk-navbar-nav>li>a {
     padding: 0 0;
-    color: black;
+    color: #390000;
     text-transform: uppercase;
     transition: .1s ease-in-out;
     position: relative;
-font-family: Quicksand;
-font-size: 24px;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: center;
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
 
 }
 
@@ -23,15 +23,59 @@ text-align: center;
     padding: 0 0;
     color: black;
     text-transform: uppercase;
-    text-decoration: underline;
-    transition: .1s ease-in-out;
-    transition-property: color, background-color;
+
 }
 
+.indexSection3Info {
+    font-family: Montserrat;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #8C2A3B;
+    ;
+}
+
+.indexSection2ContainerCetenidTextoPrincipal {
+    font-family: Noto Serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #390000;
+}
+
+.indexSection2MiniContainersTitulo {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #BF304A;
+    ;
+}
+.indexSection2MiniContainersTituloActRecrea{font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:  #BF304A;
+ 
+    ;}
 .indexCarrouselImg {
     justify-self: stretch;
     align-self: stretch;
     object-fit: cover;
+}
+
+.uk-navbar-item,
+.uk-navbar-nav>li>a,
+.uk-navbar-toggle {
+    min-height: 40px;
 }
 
 .indexSection2 {
@@ -134,13 +178,16 @@ body {
     border-left: 3px solid #BF304A;
     padding: 20px;
 }
-.indexSection2ContainerCetenid  h1{color:#BF304A ;font-family: Montserrat;
+
+.indexSection2ContainerCetenid h1 {
+    color: #BF304A;
+    font-family: Montserrat;
     font-size: 64px;
     font-weight: 700;
     line-height: 78px;
     letter-spacing: 0em;
     text-align: left;
-    }
+}
 
 .indexFooter {
     background: radial-gradient(126.78% 126.78% at 50% 124.3%, #F7985B 0%, #FFF157 52.33%, #FDFDF2 91.56%);
@@ -207,7 +254,7 @@ body {
 .nosotrosSection1TituloTexto {
     width: 50%;
     padding-top: 20px;
-    
+
 }
 
 .nosotrosSection1TituloTextoContainer {
@@ -222,11 +269,11 @@ body {
     text-align: center;
     color: #BF304A;
     font-family: Quicksand;
-font-size: 64px;
-font-weight: 700;
-line-height: 80px;
-letter-spacing: 0em;
-text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: center;
 
 }
 
@@ -252,10 +299,52 @@ a .logo {
     width: 50%;
 }
 
+.contactoContainerInfoTitulos {
+    font-weight: bold;
+    color: #390000;
+    ;
+}
+
+.contactoContainerInfoTitulosP {
+    color: #390000;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 15px;
+
+}
+
+.contactoFormContainer h1 {
+    font-family: Quicksand;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #BF304A;
+    height: 91px;
+
+    left: 763px;
+    top: 291px;
+    border-radius: nullpx;
+
+}
+
 .contactoDataContainer {
     width: 50%;
     margin-top: 20px;
     padding-left: 45px;
+}
+
+.contactoDataContainer h1 {
+    font-family: Quicksand;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #BF304A;
+
 }
 
 .contactoContainerSection1 {
@@ -293,9 +382,40 @@ a .logo {
 .contactoContainerInfo {
     display: flex;
     flex-wrap: wrap;
-    height: 180px;
+    height: 380px;
     list-style-type: none;
     padding-left: 0px;
+    flex-direction: column;
+    line-height: 14px;
+}
+
+.underline::before {
+    content: "";
+    /* Añadir un elemento vacío antes del texto */
+    position: absolute;
+    /* Establecer posición absoluta para el elemento */
+    width: 100%;
+    /* Ajustar el ancho al 100% del elemento padre */
+    height: 2px;
+    /* Establecer la altura del subrayado */
+    bottom: 0;
+    /* Ajustar la posición del subrayado */
+    left: 0;
+    background-color: #390000;
+    /* Establecer el color del subrayado */
+    visibility: hidden;
+    /* Ocultar el subrayado por defecto */
+    transform: scaleX(0);
+    /* Ajustar la escala horizontal a cero */
+    transition: all 0.3s ease-in-out;
+    /* Añadir una transición para la animación */
+}
+
+.underline:hover::before {
+    visibility: visible;
+    /* Mostrar el subrayado al hacer hover */
+    transform: scaleX(1);
+    /* Ajustar la escala horizontal al 100% */
 }
 
 .uk-card-defaultt {
@@ -332,6 +452,19 @@ a .logo {
 
 .cTsectionContainerTexto {
     width: 40%;
+
+
+}
+
+.cTsectionContainerTextoTitulo{
+    font-family: Quicksand;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #BF304A;
+    border-bottom: 1px solid #000000
 }
 
 .cTcontainerNuestrasTerapiasSoles {
@@ -346,7 +479,9 @@ a .logo {
     border-radius: 20px;
 }
 
-.sectiooon{max-height: 500px;}
+.sectiooon {
+    max-height: 500px;
+}
 
 .uk-slideshow-items>* {
     max-height: 500px;
@@ -357,19 +492,23 @@ a .logo {
     --uk-position-margin-offset: 155px;
 }
 
-.cTcontainerTextoFoto{width: 100%;display: flex;}
+.cTcontainerTextoFoto {
+    width: 100%;
+    display: flex;
+}
 
-.cTcontainerTextoFotoFlex{width: 50%;}
+.cTcontainerTextoFotoFlex {
+    width: 50%;
+}
 
-.nosotrosSection1Titulo{
+.nosotrosSection1Titulo {
     border-radius: nullpx;
     color: #BF304A;
     font-family: Quicksand;
-font-size: 64px;
-font-weight: 700;
-line-height: 80px;
-letter-spacing: 0em;
-text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: center;
 
-    }
-
+}
