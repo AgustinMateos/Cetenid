@@ -329,7 +329,14 @@ a .logo {
     border-radius: nullpx;
 
 }
-
+.contactoFormContainerTextoContactese{font-family: Quicksand;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:  #390000;
+    ;}
 .contactoDataContainer {
     width: 50%;
     margin-top: 20px;
@@ -344,6 +351,7 @@ a .logo {
     letter-spacing: 0em;
     text-align: left;
     color: #BF304A;
+    padding-top: 7px;
 
 }
 
@@ -443,11 +451,11 @@ a .logo {
 }
 
 .cTsectionContainerImg img {
-    height: 280px;
+    height: 410px;
     width: 100%;
     object-fit: cover;
     border-radius: 20px;
-    object-fit: cover;
+    
 }
 
 .cTsectionContainerTexto {
