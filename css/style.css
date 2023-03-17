@@ -438,12 +438,12 @@ a .logo {
 }
 
 .cTsectionContainerImg {
-    width: 300px;
+    width: 400px;
 
 }
 
 .cTsectionContainerImg img {
-    height: 200px;
+    height: 280px;
     width: 100%;
     object-fit: cover;
     border-radius: 20px;
@@ -455,6 +455,27 @@ a .logo {
 
 
 }
+.cTsectionTexto{
+    
+    font-family: Noto Serif;
+    font-size: 28px;
+    font-weight: 200;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    }
+.cTcontainerTexto{
+    font-family: Noto Serif;
+font-size: 28px;
+font-weight: 200;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: center;
+
+
+    
+
+    }
 
 .cTsectionContainerTextoTitulo{
     font-family: Quicksand;
@@ -494,11 +515,14 @@ a .logo {
 
 .cTcontainerTextoFoto {
     width: 100%;
-    display: flex;
+    
 }
 
 .cTcontainerTextoFotoFlex {
-    width: 50%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
 }
 
 .nosotrosSection1Titulo {
