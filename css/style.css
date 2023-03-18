@@ -494,10 +494,11 @@ color: #390000;
 
 .cTcontainerNuestrasTerapiasSoles {
     display: flex;
-    height: 400px;
-    flex-direction: column;
+    height: 500px;
     align-items: center;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
 }
 
 .imgBorder {
