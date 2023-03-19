@@ -57,15 +57,19 @@
     color: #BF304A;
     ;
 }
-.indexSection2MiniContainersTituloActRecrea{font-family: Montserrat;
+
+.indexSection2MiniContainersTituloActRecrea {
+    font-family: Montserrat;
     font-size: 36px;
     font-weight: 600;
     line-height: 44px;
     letter-spacing: 0em;
     text-align: left;
-    color:  #BF304A;
- 
-    ;}
+    color: #BF304A;
+
+    ;
+}
+
 .indexCarrouselImg {
     justify-self: stretch;
     align-self: stretch;
@@ -115,7 +119,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    justify-content: space-around;/*error*/
+    justify-content: space-around;
+    /*error*/
 }
 
 .uk-child-width-1-2\@s>* {
@@ -322,14 +327,18 @@ a .logo {
     border-radius: nullpx;
 
 }
-.contactoFormContainerTextoContactese{font-family: Quicksand;
+
+.contactoFormContainerTextoContactese {
+    font-family: Quicksand;
     font-size: 40px;
     font-weight: 400;
     line-height: 50px;
     letter-spacing: 0em;
     text-align: left;
-    color:  #390000;
-    ;}
+    color: #390000;
+    ;
+}
+
 .contactoDataContainer {
     width: 50%;
     margin-top: 20px;
@@ -448,40 +457,27 @@ a .logo {
     max-width: 130%;
     object-fit: cover;
     border-radius: 20px;
-    
+
 }
 
 .cTsectionContainerTexto {
     width: 40%;
 
-
 }
-.cTsectionTexto{
-    
+
+.cTcontainerTexto {
+
     font-family: Noto Serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 44px;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: center;
     color: #390000;
-    }
-.cTcontainerTexto{
-    
-font-family: Noto Serif;
-font-size: 18px;
-font-weight: 400;
-line-height: 44px;
-letter-spacing: 0em;
-text-align: left;
-color: #390000;
 
+}
 
-    
-
-    }
-
-.cTsectionContainerTextoTitulo{
+.cTsectionContainerTextoTitulo {
     font-family: Quicksand;
     font-size: 48px;
     font-weight: 700;
@@ -492,9 +488,42 @@ color: #390000;
     border-bottom: 1px solid #000000
 }
 
+.cTcontainerNuestrasTerapiasSolesStyle {
+    font-family: Quicksand;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #C93143;
+    border-bottom: 1px solid #000000;
+}
+.cTsection2ContainerTituloSoles{
+    width: 780px;display: flex;
+    justify-content: space-around;
+    font-family: Quicksand;
+
+
+}
+.NosotroscontainerTexto{font-family: Noto Serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #390000;}
+.cTsection2ContainerTituloSoles h1{font-size: 34px;
+font-weight: 700;
+line-height: 80px;
+letter-spacing: 0em;
+text-align: left;
+color: #390000;
+}
+
+
 .cTcontainerNuestrasTerapiasSoles {
     display: flex;
-    height: 500px;
+    height: 600px;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
@@ -520,13 +549,13 @@ color: #390000;
 
 .cTcontainerTextoFoto {
     width: 100%;
-    
+
 }
 
 .cTcontainerTextoFotoFlex {
-display: flex;
-justify-content: space-evenly;
-align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 
 }
 
