@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.6/dist/css/uikit.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Inicio | Cetenid</title>
 </head>
 
@@ -36,9 +36,9 @@
                     </li>
                     <li><a class="underline" href="./pages/comoTrabajamos.html">Como Trabajamos</a></li>
                     <li><a class="underline" href="">Galeria</a></li>
-                    <li
-                        class="uk-padding uk-padding-remove-bottom uk-padding-remove-top uk-padding-remove-left ">
-                        <a class="underline" href="pages/contacto.html">Contacto</a></li>
+                    <li class="uk-padding uk-padding-remove-bottom uk-padding-remove-top uk-padding-remove-left ">
+                        <a class="underline" href="pages/contacto.html">Contacto</a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -46,24 +46,26 @@
         termina navbar
     -->
     </header>
+    <a class="whatsapp" href="https://wa.me/1164316343" target="_blank">
+        <img src="./imagenes/wpp.jpeg" alt="" width="90px"></a>
     <main>
         <section class="sectiooon">
-            <div>
+            <div style="height: 200px;">
                 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1"
                     uk-slideshow="animation: fade">
 
-                    <ul class="uk-slideshow-items">
+                    <ul class="uk-slideshow-items carrouselimgul">
                         <li>
-                            <img src="./imagenes/carrousel/14.jpeg" alt="" uk-cover>
+                            <img class="carrouselimg" src="./imagenes/carrousel/14.jpeg" alt=""  uk-cover>
                             <p class=" uk-position-bottom-left uk-padding-large" style=" color: rgb(255, 255, 255);">
                                 CETENID</p>
                         </li>
                         <li>
-                            <img src="./imagenes/carrousel/9.jpg" alt="" uk-cover>
+                            <img class="carrouselimg" src="./imagenes/carrousel/9.jpg" alt="" uk-cover>
                             <p class=" uk-position-bottom-left uk-padding-large" style="color: white;">CETENID</p>
                         </li>
                         <li>
-                            <img src="./imagenes/carrousel/4.jpg" alt="" uk-cover>
+                            <img class="carrouselimg" src="./imagenes/carrousel/4.jpg" alt="" uk-cover>
                             <p class=" uk-position-bottom-left uk-padding-large" style="color: white;">CETENID</p>
                         </li>
                     </ul>
@@ -154,6 +156,8 @@
                 <a class="indexSection3Button" href="./pages/contacto.html">Donde Estamos?</a>
             </div>
         </section>
+        <div></div>
+
     </main>
 
     <footer class="indexFooter">
@@ -161,26 +165,26 @@
             <div>
                 <ul class="uk-list uk-list-large">
                     <li>
-                        <h6>Dirección:</h6>
+                        <h6 class="contactoContainerInfoTitulos">Dirección:</h6>
                         <p>Chacabuco 157. Haedo. Provincia de Buenos Aires. C.P. 1706</p>
                     </li>
                     <li>
-                        <h6>Tel:</h6>
+                        <h6 class="contactoContainerInfoTitulos">Telefonos</h6>
                         <p>011 4659 7623</p>
                     </li>
                     <li>
-                        <h6>Email:</h6>
+                        <h6 class="contactoContainerInfoTitulos">Email:</h6>
                         <p>cetenidcetenid@gmail.com</p>
                     </li>
                 </ul>
             </div>
             <div>
                 <ul class="uk-list uk-list-large">
-                    <li><a  href="#">CETENID </a></li>
-                    <li><a  href="./pages/nosotros.html">Nosotros</a></li>
+                    <li><a href="#">CETENID </a></li>
+                    <li><a href="./pages/nosotros.html">Nosotros</a></li>
                     <li><a href="./pages/comoTrabajamos.html">Como Trabajamos</a> </li>
-                    <li><a  href="">Galeria</a> </li>
-                    <li><a  href="./pages/contacto.html">Contacto</a></li>
+                    <li><a href="">Galeria</a> </li>
+                    <li><a href="./pages/contacto.html">Contacto</a></li>
                 </ul>
             </div>
             <div class="uk-card uk-card-default uk-card-body uk-width-1-2@m indexFooterCoberturaContainer">

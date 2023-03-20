@@ -1,0 +1,125 @@
+
+/*como trabajamos*/
+.cTsection1Container {
+    width: 100%;
+    margin: 40px;
+}
+
+.cTsection1ContainerFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.cTsectionContainerImg {
+    width: 400px;
+
+}
+
+.cTsectionContainerImg img {
+    height: 450px;
+    max-width: 130%;
+    object-fit: cover;
+    border-radius: 20px;
+
+}
+
+.cTsectionContainerTexto {
+    width: 40%;
+
+}
+
+.cTcontainerTexto {
+
+    font-family: Noto Serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #390000;
+
+}
+
+.cTsectionContainerTextoTitulo {
+    font-family: Quicksand;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #BF304A;
+    border-bottom: 1px solid #000000
+}
+
+.cTcontainerNuestrasTerapiasSolesStyle {
+    font-family: Quicksand;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #C93143;
+    border-bottom: 1px solid #000000;
+}
+
+.cTsection2ContainerTituloSoles {
+    width: 780px;
+    display: flex;
+    justify-content: space-around;
+    font-family: Quicksand;
+
+
+}
+
+
+
+.cTsection2ContainerTituloSoles h1 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #390000;
+}
+
+
+.cTcontainerNuestrasTerapiasSoles {
+    display: flex;
+    height: 600px;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+
+.imgBorder {
+    border-radius: 20px;
+}
+
+.sectiooon {
+    max-height: 500px;
+}
+
+
+.uk-slideshow-items>* {
+    max-height: 500px;
+}
+
+.uk-position-small {
+    margin: 15px;
+    --uk-position-margin-offset: 155px;
+}
+
+.cTcontainerTextoFoto {
+    width: 100%;
+
+}
+
+.cTcontainerTextoFotoFlex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}

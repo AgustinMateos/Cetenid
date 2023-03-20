@@ -1,0 +1,68 @@
+
+.uk-navbar-nav>li>a {
+    padding: 0 0;
+    color: #390000;
+    text-transform: uppercase;
+    transition: .1s ease-in-out;
+    position: relative;
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.uk-navbar-nav>li>a:hover {
+    padding: 0 0;
+    color: black;
+    text-transform: uppercase;
+
+}
+
+.underline::before {
+    content: "";
+    /* Añadir un elemento vacío antes del texto */
+    position: absolute;
+    /* Establecer posición absoluta para el elemento */
+    width: 100%;
+    /* Ajustar el ancho al 100% del elemento padre */
+    height: 2px;
+    /* Establecer la altura del subrayado */
+    bottom: 0;
+    /* Ajustar la posición del subrayado */
+    left: 0;
+    background-color: #390000;
+    /* Establecer el color del subrayado */
+    visibility: hidden;
+    /* Ocultar el subrayado por defecto */
+    transform: scaleX(0);
+    /* Ajustar la escala horizontal a cero */
+    transition: all 0.3s ease-in-out;
+    /* Añadir una transición para la animación */
+}
+
+.underline:hover::before {
+    visibility: visible;
+    /* Mostrar el subrayado al hacer hover */
+    transform: scaleX(1);
+    /* Ajustar la escala horizontal al 100% */
+}
+
+.uk-card-defaultt {
+    background-color: transparent;
+    color: #666;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 8%);
+}
+
+
+a .logo {
+    max-height: 325px;
+    object-fit: cover;
+}
+
+.uk-navbar-nav>li.uk-active>a {
+    padding-top: 10px;
+    max-height: 107px;
+}

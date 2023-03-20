@@ -1,0 +1,115 @@
+
+/*contacto*/
+
+.contactoFormContainer {
+
+    width: 50%;
+}
+
+.contactoContainerInfoTitulos {
+    font-weight: bold;
+    color: #390000;
+    ;
+}
+
+.contactoContainerInfoTitulosP {
+    color: #390000;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 15px;
+
+}
+
+.contactoFormContainer h1 {
+    font-family: Quicksand;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #BF304A;
+    height: 91px;
+    border-bottom: 1px solid #000000;
+    left: 763px;
+    top: 291px;
+   
+
+}
+
+.contactoFormContainerTextoContactese {
+    font-family: Quicksand;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #390000;
+    
+    ;
+}
+
+.contactoDataContainer {
+    width: 40%;
+    margin-top: 20px;
+    padding-left: 45px;
+}
+
+.contactoDataContainer h1 {
+    font-family: Quicksand;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #BF304A;
+    padding-top: 7px;
+    border-bottom: 1px solid #000000;
+    margin-top: 69px;
+    padding-bottom: 20px;
+
+}
+
+.contactoContainerSection1 {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input {
+    background: #FEE1B5;
+    color: black;
+    left: 768px;
+    top: 812px;
+    border-radius: 20px;
+
+}
+
+.contactoButtonEnviar {
+    box-sizing: border-box;
+    width: 199px;
+    height: 42px;
+    background-color: #BF304A;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: Montserrat;
+    margin: 10px;
+}
+
+.contactoContainerInfo {
+    display: flex;
+    flex-wrap: wrap;
+    height: 380px;
+    list-style-type: none;
+    padding-left: 0px;
+    flex-direction: column;
+    line-height: 14px;
+}

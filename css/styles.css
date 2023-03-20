@@ -1,0 +1,564 @@
+@charset "UTF-8";
+.whatsapp {
+  position: fixed;
+  color: black;
+  font-size: 10px;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  bottom: 1rem;
+  right: 0.5rem;
+  text-decoration: none;
+  background-color: #BF304A;
+}
+
+.uk-navbar-nav > li > a {
+  padding: 0 0;
+  color: #390000;
+  text-transform: uppercase;
+  transition: 0.1s ease-in-out;
+  position: relative;
+  font-family: Quicksand;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.uk-navbar-nav > li > a:hover {
+  padding: 0 0;
+  color: black;
+  text-transform: uppercase;
+}
+
+.underline::before {
+  content: "";
+  /* Añadir un elemento vacío antes del texto */
+  position: absolute;
+  /* Establecer posición absoluta para el elemento */
+  width: 100%;
+  /* Ajustar el ancho al 100% del elemento padre */
+  height: 2px;
+  /* Establecer la altura del subrayado */
+  bottom: 0;
+  /* Ajustar la posición del subrayado */
+  left: 0;
+  background-color: #390000;
+  /* Establecer el color del subrayado */
+  visibility: hidden;
+  /* Ocultar el subrayado por defecto */
+  transform: scaleX(0);
+  /* Ajustar la escala horizontal a cero */
+  transition: all 0.3s ease-in-out;
+  /* Añadir una transición para la animación */
+}
+
+.underline:hover::before {
+  visibility: visible;
+  /* Mostrar el subrayado al hacer hover */
+  transform: scaleX(1);
+  /* Ajustar la escala horizontal al 100% */
+}
+
+.uk-card-defaultt {
+  background-color: transparent;
+  color: #666;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+a .logo {
+  max-height: 325px;
+  object-fit: cover;
+}
+
+.uk-navbar-nav > li.uk-active > a {
+  padding-top: 10px;
+  max-height: 107px;
+}
+
+.nosotrosSection1Containerimgtexto {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nosotrosSection1Containerimgtexto img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+.nosotrosSection1Containerimgtexto p {
+  width: 50%;
+}
+
+.NosotroscontainerTexto {
+  font-family: Noto Serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #390000;
+}
+
+.nosotrosSection1Titulo {
+  border-radius: nullpx;
+  color: #BF304A;
+  font-family: Quicksand;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.nosotrosSection1TituloTexto {
+  width: 50%;
+  padding-top: 20px;
+}
+
+.nosotrosSection1TituloTextoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+.nosotrosSectionTituloEquipo {
+  text-align: center;
+  color: #BF304A;
+  font-family: Quicksand;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.nosotrosSectionEquipoTexto {
+  margin: 20px;
+  text-align: center;
+}
+
+/*contacto*/
+.contactoFormContainer {
+  width: 50%;
+}
+
+.contactoContainerInfoTitulos {
+  font-weight: bold;
+  color: #390000;
+}
+
+.contactoContainerInfoTitulosP {
+  color: #390000;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 15px;
+}
+
+.contactoFormContainer h1 {
+  font-family: Quicksand;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 80px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #BF304A;
+  height: 91px;
+  border-bottom: 1px solid #000000;
+  left: 763px;
+  top: 291px;
+}
+
+.contactoFormContainerTextoContactese {
+  font-family: Quicksand;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #390000;
+}
+
+.contactoDataContainer {
+  width: 40%;
+  margin-top: 20px;
+  padding-left: 45px;
+}
+
+.contactoDataContainer h1 {
+  font-family: Quicksand;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #BF304A;
+  padding-top: 7px;
+  border-bottom: 1px solid #000000;
+  margin-top: 69px;
+  padding-bottom: 20px;
+}
+
+.contactoContainerSection1 {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input {
+  background: #FEE1B5;
+  color: black;
+  left: 768px;
+  top: 812px;
+  border-radius: 20px;
+}
+
+.contactoButtonEnviar {
+  box-sizing: border-box;
+  width: 199px;
+  height: 42px;
+  background-color: #BF304A;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-family: Montserrat;
+  margin: 10px;
+}
+
+.contactoContainerInfo {
+  display: flex;
+  flex-wrap: wrap;
+  height: 380px;
+  list-style-type: none;
+  padding-left: 0px;
+  flex-direction: column;
+  line-height: 14px;
+}
+
+/*como trabajamos*/
+.cTsection1Container {
+  width: 100%;
+  margin: 40px;
+}
+
+.cTsection1ContainerFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.cTsectionContainerImg {
+  width: 400px;
+}
+
+.cTsectionContainerImg img {
+  height: 450px;
+  max-width: 130%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.cTsectionContainerTexto {
+  width: 40%;
+}
+
+.cTcontainerTexto {
+  font-family: Noto Serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #390000;
+}
+
+.cTsectionContainerTextoTitulo {
+  font-family: Quicksand;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #BF304A;
+  border-bottom: 1px solid #000000;
+}
+
+.cTcontainerNuestrasTerapiasSolesStyle {
+  font-family: Quicksand;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #C93143;
+  border-bottom: 1px solid #000000;
+}
+
+.cTsection2ContainerTituloSoles {
+  width: 780px;
+  display: flex;
+  justify-content: space-around;
+  font-family: Quicksand;
+}
+
+.cTsection2ContainerTituloSoles h1 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #390000;
+}
+
+.cTcontainerNuestrasTerapiasSoles {
+  display: flex;
+  height: 600px;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+}
+
+.imgBorder {
+  border-radius: 20px;
+}
+
+.sectiooon {
+  max-height: 500px;
+}
+
+.uk-slideshow-items > * {
+  max-height: 500px;
+}
+
+.uk-position-small {
+  margin: 15px;
+  --uk-position-margin-offset: 155px;
+}
+
+.cTcontainerTextoFoto {
+  width: 100%;
+}
+
+.cTcontainerTextoFotoFlex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.indexSection3Info {
+  font-family: Montserrat;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 59px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: #8C2A3B;
+}
+
+.indexSection2ContainerCetenidTextoPrincipal {
+  font-family: Noto Serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #390000;
+}
+
+.indexSection2MiniContainersTitulo {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #BF304A;
+}
+
+.indexSection2MiniContainersTituloActRecrea {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #BF304A;
+}
+
+.indexCarrouselImg {
+  justify-self: stretch;
+  align-self: stretch;
+  object-fit: cover;
+}
+
+.uk-navbar-item,
+.uk-navbar-nav > li > a,
+.uk-navbar-toggle {
+  min-height: 40px;
+}
+
+.indexSection2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.indexSection2MiniContainers {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.indexSection2ButtonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.indexSeccion3MiniContainers {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.uk-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  /*error*/
+}
+
+.uk-child-width-1-2\@s > * {
+  width: 40%;
+}
+
+.indexSection3Button {
+  box-sizing: border-box;
+  width: 349px;
+  height: 52px;
+  background-color: #BF304A;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-family: Montserrat;
+  margin: 20px;
+}
+
+.indexSection3ButtonContainer {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.indexSection3ButtonContainer a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.indexSection3ButtonContainer a:hover {
+  color: white;
+}
+
+.uk-navbar-container:not(.uk-navbar-transparent) {
+  background: linear-gradient(270deg, #F7985B 0%, #FFF157 23.44%, #FDFDF2 73.96%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+body {
+  background-color: #FDFDF2;
+}
+
+.indexSection2ContainerCetenid {
+  border-left: 3px solid #BF304A;
+  padding: 20px;
+}
+
+.indexSection2ContainerCetenid h1 {
+  color: #BF304A;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.indexFooter {
+  background: radial-gradient(126.78% 126.78% at 50% 124.3%, #F7985B 0%, #FFF157 52.33%, #FDFDF2 91.56%);
+}
+
+.uk-list {
+  padding: 0;
+  margin: 0px;
+  list-style: none;
+}
+
+.indexFooterContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+.uk-width-1-2\@m {
+  width: 30%;
+  margin: 10px;
+  background-color: transparent;
+  text-align: center;
+}
+
+.indexSection2Button {
+  box-sizing: border-box;
+  width: 349px;
+  height: 52px;
+  background-color: #BF304A;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-family: Montserrat;
+  margin: 20px;
+}
+
+.carrouselimg {
+  height: 500px !important;
+}
+
+.carrouselimgul {
+  min-height: 200px !important;
+}/*# sourceMappingURL=styles.css.map */
