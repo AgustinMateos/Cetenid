@@ -150,6 +150,10 @@ a .logo {
   color: #390000;
 }
 
+.uk-grid-column-small > *, .uk-grid-small > * {
+  padding-left: 1px;
+}
+
 .contactoContainerInfoTitulosP {
   color: #390000;
   font-family: Quicksand;
