@@ -77,6 +77,10 @@
 .indexSection2ButtonContainer {
     display: flex;
     justify-content: center;
+    color: white;
+}
+.indexSection2ButtonContainer a:hover{
+    color: white;
 }
 
 
@@ -167,25 +171,12 @@ body {
     text-align: left;
 }
 
-.indexFooter {
-    background: radial-gradient(126.78% 126.78% at 50% 124.3%, #F7985B 0%, #FFF157 52.33%, #FDFDF2 91.56%);
-    ;
-}
 
-.uk-list {
-    padding: 0;
-    margin: 0px;
-    list-style: none;
+//flechas carrousel
+.uk-position-small {
+    margin: 15px;
+    --uk-position-margin-offset: 0px;
 }
-
-.indexFooterContainer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 20px;
-    padding-bottom: 10px;
-}
-
 
 .uk-width-1-2\@m {
     width: 30%;
@@ -214,5 +205,5 @@ body {
 
 
 
-.carrouselimg{height: 500px !important;}
-.carrouselimgul{min-height: 200px !important;}
+.carrouselimg{height: 520px !important;}
+.carrouselimgul{min-height: 464px !important; }
