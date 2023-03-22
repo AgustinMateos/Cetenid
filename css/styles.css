@@ -109,6 +109,7 @@ a .logo {
   line-height: 80px;
   letter-spacing: 0em;
   text-align: center;
+  border-bottom: 1px solid #000000;
 }
 
 .nosotrosSection1TituloTexto {
@@ -540,7 +541,7 @@ a .logo {
   border: 1px solid #000000;
   border-radius: 20px;
   color: #ffffff;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 600;
   line-height: 44px;
   letter-spacing: 0em;
@@ -608,7 +609,7 @@ body {
   border: 1px solid #000000;
   border-radius: 20px;
   color: #ffffff;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 600;
   line-height: 44px;
   letter-spacing: 0em;
@@ -619,8 +620,14 @@ body {
 
 .carrouselimg {
   height: 520px !important;
+  object-fit: cover;
 }
 
 .carrouselimgul {
-  min-height: 464px !important;
+  min-height: 794px !important;
+}
+
+.carrouselimgli {
+  justify-self: stretch;
+  align-self: stretch;
 }/*# sourceMappingURL=styles.css.map */
