@@ -1,15 +1,4 @@
 @charset "UTF-8";
-.whatsapp {
-  position: fixed;
-  color: black;
-  padding: 0.5rem 1rem;
-  display: inline-block;
-  bottom: 1rem;
-  right: 0.1rem;
-  text-decoration: none;
-  background-color: #BF304A;
-}
-
 .uk-navbar-nav > li > a {
   padding: 0 0;
   color: #390000;
@@ -443,6 +432,17 @@ a .logo {
   cursor: pointer;
 }
 
+.whatsapp {
+  position: fixed;
+  color: black;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  bottom: 1rem;
+  right: 0.1rem;
+  text-decoration: none;
+  background-color: #BF304A;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -605,7 +605,7 @@ body {
 
 .uk-position-small {
   margin: 15px;
-  --uk-position-margin-offset: 140px;
+  --uk-position-margin-offset: 40px;
 }
 
 .uk-width-1-2\@m {
@@ -638,7 +638,7 @@ body {
 }
 
 .carrouselimgul {
-  min-height: 794px !important;
+  min-height: 494px !important;
 }
 
 .carrouselimgli {
