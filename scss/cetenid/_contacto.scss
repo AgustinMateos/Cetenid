@@ -24,6 +24,13 @@
     line-height: 15px;
 
 }
+.input {
+    height: 50px;
+    color: black;
+    left: 768px;
+    top: 812px;
+    border-radius: 20px;
+}
 
 .contactoFormContainer h1 {
     font-family: Quicksand;
@@ -69,7 +76,7 @@
     color: #BF304A;
     padding-top: 7px;
     border-bottom: 1px solid #000000;
-    margin-top: 69px;
+    margin-top: 2px;
     padding-bottom: 20px;
 
 }
@@ -117,3 +124,5 @@
     flex-direction: column;
     line-height: 14px;
 }
+
+.contactoMensajeInput{height: 120px;}
