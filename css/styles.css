@@ -440,7 +440,7 @@ a .logo {
   bottom: 1rem;
   right: 0.1rem;
   text-decoration: none;
-  background-color: #BF304A;
+  z-index: 1;
 }
 
 * {
@@ -477,6 +477,7 @@ a .logo {
   letter-spacing: 0em;
   text-align: left;
   color: #BF304A;
+  width: 210px;
 }
 
 .indexSection2MiniContainersTituloActRecrea {
@@ -487,6 +488,7 @@ a .logo {
   letter-spacing: 0em;
   text-align: left;
   color: #BF304A;
+  width: 200px;
 }
 
 .indexCarrouselImg {
