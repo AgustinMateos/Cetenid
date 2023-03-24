@@ -1,4 +1,34 @@
 @charset "UTF-8";
+/*GENERALES
+
+Tipografia en cards
+$tipografiaInfoCards: "Montserrat";
+$colorTipografiaInfoCards: white;
+$tFuenteInfoCardsIndex: 3rem;
+$tFuenteInfoCardsIndexTablet: 2.5rem;
+$tFuenteInfoCardsIndexMobile: 2rem;
+$tFuenteInfoCardsClips: 2rem;
+$tFuenteInfoCardsClipsTablet: 1.3rem;
+$tFuenteInfoCardsClipsMobile: 1.3rem;
+
+
+Titulos de Seccion
+$tipografiaTitulosDeSeccion: "Montserrat";
+$tFuenteTitulosDeSeccion: 40px;
+$tFuenteTitulosDeSeccionTablet: 25px;
+$tFuenteTitulosDeSeccionMobile: 26px;
+$colorTipografiaTitulosDeSeccion: #850808;
+
+
+Titulos de imagenes estaticas de ShortFilms 
+$tipografiaTitulosDeImagenesShortFilms: "Montserrat";
+$tFuenteTitulosDeImagenesDeShortfilms: 3rem;
+$colorTipografiaTitulosDeImagenesShortFilms: #850808;
+
+Tipografias de textos  
+$tipografiaDeTextos: "Montserrat";
+$colorTipografiaDeTextos: aliceblue;
+$tFuenteTextos: 1rem;*/
 .uk-navbar-nav > li > a {
   padding: 0 0;
   color: #390000;
@@ -208,8 +238,7 @@ a .logo {
   display: flex;
   flex-wrap: nowrap;
   width: 100%;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
 }
 
 .input {
@@ -273,6 +302,7 @@ a .logo {
   max-width: 130%;
   object-fit: cover;
   border-radius: 20px;
+  border: 10px double black;
 }
 
 .cTsectionContainerTexto {
@@ -432,6 +462,15 @@ a .logo {
   cursor: pointer;
 }
 
+.footerMenu {
+  font-family: Quicksand;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
 .whatsapp {
   position: fixed;
   color: black;
@@ -441,6 +480,93 @@ a .logo {
   right: 0.1rem;
   text-decoration: none;
   z-index: 1;
+}
+
+.cuerpo {
+  background-color: black;
+}
+
+.works__container {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.05fr 0.05fr 1.5fr 0.05fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "works__nombresDeArtistas__container" "works__imagenes__container";
+}
+
+.works__nombresDeArtistas__container {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  grid-area: works__nombresDeArtistas__container;
+}
+
+.works__nombresDeArtistas__container div {
+  width: 40%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.works__coversVideos__container {
+  grid-area: works__coversVideos__container;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#imagenes__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.centrar__imagenes__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__container {
+  width: 50%;
+  height: 300px;
+  background-color: black;
+  position: relative;
+  border: solid black 1px;
+  cursor: pointer;
+}
+
+.card__info {
+  position: absolute;
+  top: 45%;
+  right: 18%;
+  cursor: pointer;
+  text-align: center;
+  width: 60%;
+}
+
+.video__container {
+  position: relative;
+}
+
+.works__footer {
+  color: black;
+  text-align: center;
+}
+
+.imagen__container {
+  width: 100%;
+  height: 100%;
+}
+
+.card__container .imagen__container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 * {
