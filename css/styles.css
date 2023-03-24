@@ -49,6 +49,10 @@ $tFuenteTextos: 1rem;*/
   text-transform: uppercase;
 }
 
+.navbarContacto {
+  margin-right: 20px;
+}
+
 .underline::before {
   content: "";
   /* Añadir un elemento vacío antes del texto */
@@ -158,6 +162,34 @@ a .logo {
 .nosotrosSectionEquipoTexto {
   margin: 20px;
   text-align: center;
+  padding-left: 0px;
+}
+
+.nosotrosSectionTituloEquipoFoto {
+  display: flex;
+  justify-content: center;
+}
+
+.nosotrosTextoSocias {
+  font-family: Quicksand;
+  font-size: 36px;
+  color: #390000;
+  font-family: Quicksand;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.nosotrosTextoProfesionales {
+  font-family: Quicksand;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 70px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #390000;
 }
 
 /*contacto*/
@@ -282,7 +314,6 @@ a .logo {
 
 /*como trabajamos*/
 .cTsection1Container {
-  width: 100%;
   margin: 40px;
 }
 
@@ -357,15 +388,17 @@ a .logo {
   letter-spacing: 0em;
   text-align: left;
   color: #390000;
+  margin-bottom: 0px;
 }
 
 .cTcontainerNuestrasTerapiasSoles {
   display: flex;
-  height: 600px;
+  height: 400px;
   align-items: center;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
   text-align: center;
+  justify-content: space-evenly;
 }
 
 .imgBorder {
@@ -393,6 +426,11 @@ a .logo {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.cTcontainerSol {
+  width: 200px;
+  height: 400px;
 }
 
 .footerContainerInfo {
@@ -428,16 +466,18 @@ a .logo {
 .indexFooterCoberturaContainer {
   border: 1px solid #390000;
   display: flex;
-  height: 250px;
+  height: 210px;
   width: 378px;
   border-radius: 20px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding-top: 20px;
 }
 .indexFooterCoberturaContainer h3 {
   border-bottom: 1px solid #390000;
+  margin-bottom: 0px;
 }
 .indexFooterCoberturaContainer p {
   font-family: Quicksand;
@@ -450,13 +490,21 @@ a .logo {
   margin-top: 10px;
 }
 
-.uk-link, a {
+.uk-card-default {
+  background-color: transparent;
+  color: #666;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.uk-link,
+a {
   color: black;
   text-decoration: none;
   cursor: pointer;
 }
 
-.uk-link, a:hover {
+.uk-link,
+a:hover {
   color: black;
   text-decoration: none;
   cursor: pointer;
@@ -464,9 +512,9 @@ a .logo {
 
 .footerMenu {
   font-family: Quicksand;
-  font-size: 36px;
+  font-size: 18px;
   font-weight: 700;
-  line-height: 39px;
+  line-height: 20px;
   letter-spacing: 0em;
   text-align: left;
 }
@@ -480,93 +528,6 @@ a .logo {
   right: 0.1rem;
   text-decoration: none;
   z-index: 1;
-}
-
-.cuerpo {
-  background-color: black;
-}
-
-.works__container {
-  position: relative;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.05fr 0.05fr 1.5fr 0.05fr;
-  grid-auto-columns: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas: "works__nombresDeArtistas__container" "works__imagenes__container";
-}
-
-.works__nombresDeArtistas__container {
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-  grid-area: works__nombresDeArtistas__container;
-}
-
-.works__nombresDeArtistas__container div {
-  width: 40%;
-  margin-top: 40px;
-  margin-bottom: 20px;
-}
-
-.works__coversVideos__container {
-  grid-area: works__coversVideos__container;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-#imagenes__container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.centrar__imagenes__container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.card__container {
-  width: 50%;
-  height: 300px;
-  background-color: black;
-  position: relative;
-  border: solid black 1px;
-  cursor: pointer;
-}
-
-.card__info {
-  position: absolute;
-  top: 45%;
-  right: 18%;
-  cursor: pointer;
-  text-align: center;
-  width: 60%;
-}
-
-.video__container {
-  position: relative;
-}
-
-.works__footer {
-  color: black;
-  text-align: center;
-}
-
-.imagen__container {
-  width: 100%;
-  height: 100%;
-}
-
-.card__container .imagen__container img {
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-  object-fit: cover;
 }
 
 * {
@@ -606,6 +567,16 @@ a .logo {
   width: 210px;
 }
 
+.indexSection2MiniContainersTituloP {
+  font-family: Noto Serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #390000;
+}
+
 .indexSection2MiniContainersTituloActRecrea {
   font-family: Montserrat;
   font-size: 36px;
@@ -637,8 +608,9 @@ a .logo {
 
 .indexSection2MiniContainers {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
+  width: 300px;
 }
 
 .indexSection2ButtonContainer {

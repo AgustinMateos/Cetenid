@@ -24,6 +24,7 @@
     text-align: center;
     color: #390000;
 }
+
 .nosotrosSection1Titulo {
     border-radius: nullpx;
     color: #BF304A;
@@ -67,4 +68,33 @@
 .nosotrosSectionEquipoTexto {
     margin: 20px;
     text-align: center;
+    padding-left: 0px;
+}
+
+.nosotrosSectionTituloEquipoFoto {
+    display: flex;
+    justify-content: center;
+}
+
+.nosotrosTextoSocias {
+    font-family: Quicksand;
+    font-size: 36px;
+    color: #390000;
+    font-family: Quicksand;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.nosotrosTextoProfesionales {
+    font-family: Quicksand;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #390000;
+
 }

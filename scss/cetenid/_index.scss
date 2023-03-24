@@ -35,9 +35,19 @@
     letter-spacing: 0em;
     text-align: left;
     color: #BF304A;
-    width: 210px
-    ;
-}
+    width: 210px;}
+ 
+        
+   .indexSection2MiniContainersTituloP{
+        font-family: Noto Serif;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 44px;
+        letter-spacing: 0em; 
+        text-align: left;
+        color: #390000;
+
+    }
 
 .indexSection2MiniContainersTituloActRecrea {
     font-family: Montserrat;
@@ -72,8 +82,10 @@
 
 .indexSection2MiniContainers {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 300px;
+   
 }
 
 .indexSection2ButtonContainer {
@@ -219,3 +231,4 @@ body {
     justify-self: stretch;
     align-self: stretch;
 }
+

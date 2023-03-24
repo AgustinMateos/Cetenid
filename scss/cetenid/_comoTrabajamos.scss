@@ -1,7 +1,7 @@
 
 /*como trabajamos*/
 .cTsection1Container {
-    width: 100%;
+    
     margin: 40px;
 }
 
@@ -83,16 +83,18 @@
     letter-spacing: 0em;
     text-align: left;
     color: #390000;
+    margin-bottom: 0px;
 }
 
 
 .cTcontainerNuestrasTerapiasSoles {
     display: flex;
-    height: 600px;
+    height: 400px;
     align-items: center;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
+    justify-content: space-evenly;
 }
 
 .imgBorder {
@@ -124,3 +126,6 @@
     align-items: center;
 
 }
+
+.cTcontainerSol{width: 200px; height: 400px;}
+
