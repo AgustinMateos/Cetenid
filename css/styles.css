@@ -172,7 +172,7 @@ a .logo {
 
 .nosotrosTextoSocias {
   font-family: Quicksand;
-  font-size: 36px;
+  font-size: 1px;
   color: #390000;
   font-family: Quicksand;
   font-size: 26px;
@@ -184,9 +184,19 @@ a .logo {
 
 .nosotrosTextoProfesionales {
   font-family: Quicksand;
-  font-size: 56px;
+  font-size: 35px;
   font-weight: 500;
   line-height: 70px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #390000;
+}
+
+.nosotrosTextoProfesionalesAle {
+  font-family: Quicksand;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 60px;
   letter-spacing: 0em;
   text-align: center;
   color: #390000;
@@ -517,6 +527,19 @@ a:hover {
   line-height: 20px;
   letter-spacing: 0em;
   text-align: left;
+}
+
+.footerMenu {
+  box-shadow: inset 0 0 0 0 #BF304A;
+  color: #390000;
+  padding: 0 0.25rem;
+  margin: 0 -0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.footerMenu:hover {
+  color: #fff;
+  box-shadow: inset 200px 0 0 0 #BF304A;
 }
 
 .whatsapp {
