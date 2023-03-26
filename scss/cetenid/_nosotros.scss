@@ -14,7 +14,6 @@
         width: 50%;
     }
 }
-
 .NosotroscontainerTexto {
     font-family: $TextoCeteIconosFontFamily;
     font-size: $TextoCeteIconosFontSize;
@@ -64,7 +63,8 @@
     letter-spacing: 0em;
     text-align: center;
     width: 600px;
-    
+    margin-top: 20px;
+    margin-bottom: 20px;
     border-bottom: 1px solid #000000;
 
 
@@ -79,6 +79,7 @@
 .nosotrosSectionTituloEquipoFoto {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .nosotrosTextoSocias {

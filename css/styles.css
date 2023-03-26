@@ -135,6 +135,8 @@ a .logo {
   letter-spacing: 0em;
   text-align: center;
   width: 600px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border-bottom: 1px solid #000000;
 }
 
@@ -147,6 +149,7 @@ a .logo {
 .nosotrosSectionTituloEquipoFoto {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .nosotrosTextoSocias {
