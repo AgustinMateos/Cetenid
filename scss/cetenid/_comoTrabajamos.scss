@@ -27,7 +27,7 @@
 }
 
 .cTsectionContainerTexto {
-    width: 40%;
+    width: 50%;
 
 }
 
@@ -44,14 +44,16 @@
 }
 
 .cTsectionContainerTextoTitulo {
-    font-family: Quicksand;
-    font-size: 48px;
+    font-family: $TitulosPagesFontFamily;
+    font-size: $TitulosPagesFontSize;
     font-weight: 700;
     line-height: 80px;
     letter-spacing: 0em;
     text-align: left;
-    color: #BF304A;
-    border-bottom: 1px solid #000000
+    color: $TitulosPagesColor;
+    border-bottom: 1px solid #000000;
+    text-align: center;
+
 }
 
 .cTcontainerNuestrasTerapiasSolesStyle {
@@ -129,3 +131,6 @@
 
 .cTcontainerSol{width: 200px; height: 400px;}
 
+*+.uk-grid-margin, .uk-grid+.uk-grid, .uk-grid>.uk-grid-margin {
+    margin-top: 30px;
+}

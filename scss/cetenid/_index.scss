@@ -18,13 +18,13 @@
 }
 
 .indexSection2ContainerCetenidTextoPrincipal {
-    font-family: Noto Serif;
-    font-size: 24px;
+    font-family: $TextoCeteIconosFontFamily;
+    font-size: $TextoCeteIconosFontSize;
     font-weight: 400;
     line-height: 44px;
     letter-spacing: 0em;
     text-align: left;
-    color: #390000;
+    color: $TextoCeteIconosColor;
 }
 
 .indexSection2MiniContainersTitulo {
@@ -35,19 +35,21 @@
     letter-spacing: 0em;
     text-align: left;
     color: #BF304A;
-    width: 210px;}
- 
-        
-   .indexSection2MiniContainersTituloP{
-        font-family: Noto Serif;
-        font-size: 22px;
-        font-weight: 400;
-        line-height: 44px;
-        letter-spacing: 0em; 
-        text-align: left;
-        color: #390000;
+    width: 300px;
+}
 
-    }
+
+.indexSection2MiniContainersTituloP {
+    font-family: $TextoCeteIconosFontFamily;
+    font-size: $TextoCeteIconosFontSize;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $TextoCeteIconosColor;
+    width: 300px;
+
+}
 
 .indexSection2MiniContainersTituloActRecrea {
     font-family: Montserrat;
@@ -57,9 +59,7 @@
     letter-spacing: 0em;
     text-align: left;
     color: #BF304A;
-    width: 200px
-
-    ;
+    width: 300px;
 }
 
 .indexCarrouselImg {
@@ -80,12 +80,20 @@
     align-items: center;
 }
 
+.indexSection2Col2 {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .indexSection2MiniContainers {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    width: 300px;
-   
+    width: 400px;
+    justify-content: space-between;
+
 }
 
 .indexSection2ButtonContainer {
@@ -118,7 +126,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     /*error*/
 }
 
@@ -128,18 +136,18 @@
 
 .indexSection3Button {
     box-sizing: border-box;
-    width: 349px;
+    width: $BotonesWidth;
     height: 52px;
-    background-color: #BF304A;
+    background-color: $BotonesBackColor;
     border: 1px solid #000000;
     border-radius: 20px;
     color: #ffffff;
-    font-size: 24px;
+    font-size: $BotonesFontSize;
     font-weight: 600;
     line-height: 44px;
     letter-spacing: 0em;
     text-align: center;
-    font-family: Montserrat;
+    font-family: $BotonesFontFamily;
     margin: 20px;
 
 }
@@ -204,16 +212,16 @@ body {
     box-sizing: border-box;
     width: 349px;
     height: 52px;
-    background-color: #BF304A;
+    background-color: $BotonesBackColor;
     border: 1px solid #000000;
     border-radius: 20px;
     color: #ffffff;
-    font-size: 24px;
+    font-size: $BotonesFontSize;
     font-weight: 600;
     line-height: 44px;
     letter-spacing: 0em;
     text-align: center;
-    font-family: Montserrat;
+    font-family: $BotonesFontFamily;
     margin: 20px;
 }
 
@@ -231,4 +239,3 @@ body {
     justify-self: stretch;
     align-self: stretch;
 }
-

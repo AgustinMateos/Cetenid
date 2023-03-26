@@ -18,8 +18,8 @@
 
 .contactoContainerInfoTitulosP {
     color: #390000;
-    font-family: Quicksand;
-    font-size: 16px;
+    font-family: $FooterTextoFontFamily;
+    font-size: $FooterTextoFontSize;
     font-weight: 300;
     line-height: 15px;
 
@@ -33,13 +33,13 @@
 }
 
 .contactoFormContainer h1 {
-    font-family: Quicksand;
-    font-size: 64px;
+    font-family: $TitulosPagesFontFamily;
+    font-size: $TitulosPagesFontSize;
     font-weight: 600;
     line-height: 80px;
     letter-spacing: 0em;
     text-align: left;
-    color: #BF304A;
+    color: $TitulosPagesColor;
     height: 91px;
     border-bottom: 1px solid #000000;
     left: 763px;
@@ -67,13 +67,13 @@
 }
 
 .contactoDataContainer h1 {
-    font-family: Quicksand;
-    font-size: 64px;
+    font-family: $TitulosPagesFontFamily;
+    font-size: $TitulosPagesFontSize;
     font-weight: 600;
     line-height: 60px;
     letter-spacing: 0em;
     text-align: left;
-    color: #BF304A;
+    color: $TitulosPagesColor;
     padding-top: 7px;
     border-bottom: 1px solid #000000;
     margin-top: 2px;
@@ -101,17 +101,17 @@
     box-sizing: border-box;
     width: 199px;
     height: 42px;
-    background-color: #BF304A;
+    background-color: $BotonesBackColor;
     border: 1px solid #000000;
     border-radius: 20px;
     color: #ffffff;
-    font-size: 26px;
+    font-size: $BotonesFontSize;
     font-weight: 600;
     line-height: 44px;
     letter-spacing: 0em;
     text-align: center;
-    font-family: Montserrat;
-    margin: 10px;
+    font-family:$BotonesFontFamily;
+    
 }
 
 .contactoContainerInfo {

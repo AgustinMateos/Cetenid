@@ -1,34 +1,5 @@
 @charset "UTF-8";
-/*GENERALES
-
-Tipografia en cards
-$tipografiaInfoCards: "Montserrat";
-$colorTipografiaInfoCards: white;
-$tFuenteInfoCardsIndex: 3rem;
-$tFuenteInfoCardsIndexTablet: 2.5rem;
-$tFuenteInfoCardsIndexMobile: 2rem;
-$tFuenteInfoCardsClips: 2rem;
-$tFuenteInfoCardsClipsTablet: 1.3rem;
-$tFuenteInfoCardsClipsMobile: 1.3rem;
-
-
-Titulos de Seccion
-$tipografiaTitulosDeSeccion: "Montserrat";
-$tFuenteTitulosDeSeccion: 40px;
-$tFuenteTitulosDeSeccionTablet: 25px;
-$tFuenteTitulosDeSeccionMobile: 26px;
-$colorTipografiaTitulosDeSeccion: #850808;
-
-
-Titulos de imagenes estaticas de ShortFilms 
-$tipografiaTitulosDeImagenesShortFilms: "Montserrat";
-$tFuenteTitulosDeImagenesDeShortfilms: 3rem;
-$colorTipografiaTitulosDeImagenesShortFilms: #850808;
-
-Tipografias de textos  
-$tipografiaDeTextos: "Montserrat";
-$colorTipografiaDeTextos: aliceblue;
-$tFuenteTextos: 1rem;*/
+/*GENERALES*/
 .uk-navbar-nav > li > a {
   padding: 0 0;
   color: #390000;
@@ -114,8 +85,8 @@ a .logo {
 }
 
 .NosotroscontainerTexto {
-  font-family: Noto Serif;
-  font-size: 18px;
+  font-family: "Noto Serif";
+  font-size: 25px;
   font-weight: 400;
   line-height: 44px;
   letter-spacing: 0em;
@@ -124,10 +95,9 @@ a .logo {
 }
 
 .nosotrosSection1Titulo {
-  border-radius: nullpx;
   color: #BF304A;
-  font-family: Quicksand;
-  font-size: 64px;
+  font-family: "Quicksand";
+  font-size: 50px;
   font-weight: 700;
   line-height: 80px;
   letter-spacing: 0em;
@@ -157,6 +127,8 @@ a .logo {
   line-height: 80px;
   letter-spacing: 0em;
   text-align: center;
+  width: 600px;
+  border-bottom: 1px solid #000000;
 }
 
 .nosotrosSectionEquipoTexto {
@@ -202,6 +174,18 @@ a .logo {
   color: #390000;
 }
 
+.nosotrosSectionTituloEquipoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nosotrosSectionTituloCoordiContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /*contacto*/
 .contactoFormContainer {
   width: 50%;
@@ -218,8 +202,8 @@ a .logo {
 
 .contactoContainerInfoTitulosP {
   color: #390000;
-  font-family: Quicksand;
-  font-size: 16px;
+  font-family: "Quicksand";
+  font-size: 18px;
   font-weight: 300;
   line-height: 15px;
 }
@@ -233,8 +217,8 @@ a .logo {
 }
 
 .contactoFormContainer h1 {
-  font-family: Quicksand;
-  font-size: 64px;
+  font-family: "Quicksand";
+  font-size: 50px;
   font-weight: 600;
   line-height: 80px;
   letter-spacing: 0em;
@@ -263,8 +247,8 @@ a .logo {
 }
 
 .contactoDataContainer h1 {
-  font-family: Quicksand;
-  font-size: 64px;
+  font-family: "Quicksand";
+  font-size: 50px;
   font-weight: 600;
   line-height: 60px;
   letter-spacing: 0em;
@@ -299,13 +283,12 @@ a .logo {
   border: 1px solid #000000;
   border-radius: 20px;
   color: #ffffff;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 600;
   line-height: 44px;
   letter-spacing: 0em;
   text-align: center;
-  font-family: Montserrat;
-  margin: 10px;
+  font-family: "Montserrat";
 }
 
 .contactoContainerInfo {
@@ -347,7 +330,7 @@ a .logo {
 }
 
 .cTsectionContainerTexto {
-  width: 40%;
+  width: 50%;
 }
 
 .cTcontainerTexto {
@@ -363,14 +346,15 @@ a .logo {
 }
 
 .cTsectionContainerTextoTitulo {
-  font-family: Quicksand;
-  font-size: 48px;
+  font-family: "Quicksand";
+  font-size: 50px;
   font-weight: 700;
   line-height: 80px;
   letter-spacing: 0em;
   text-align: left;
   color: #BF304A;
   border-bottom: 1px solid #000000;
+  text-align: center;
 }
 
 .cTcontainerNuestrasTerapiasSolesStyle {
@@ -443,6 +427,10 @@ a .logo {
   height: 400px;
 }
 
+* + .uk-grid-margin, .uk-grid + .uk-grid, .uk-grid > .uk-grid-margin {
+  margin-top: 30px;
+}
+
 .footerContainerInfo {
   display: flex;
   flex-wrap: wrap;
@@ -488,16 +476,21 @@ a .logo {
 .indexFooterCoberturaContainer h3 {
   border-bottom: 1px solid #390000;
   margin-bottom: 0px;
+  font-family: Quicksand;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: center;
 }
 .indexFooterCoberturaContainer p {
   font-family: Quicksand;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 45px;
-  letter-spacing: 0rem;
+  letter-spacing: 0em;
   text-align: center;
-  width: 250px;
-  margin-top: 10px;
+  color: #390000;
 }
 
 .uk-card-default {
@@ -570,8 +563,8 @@ a:hover {
 }
 
 .indexSection2ContainerCetenidTextoPrincipal {
-  font-family: Noto Serif;
-  font-size: 24px;
+  font-family: "Noto Serif";
+  font-size: 25px;
   font-weight: 400;
   line-height: 44px;
   letter-spacing: 0em;
@@ -587,17 +580,18 @@ a:hover {
   letter-spacing: 0em;
   text-align: left;
   color: #BF304A;
-  width: 210px;
+  width: 300px;
 }
 
 .indexSection2MiniContainersTituloP {
-  font-family: Noto Serif;
-  font-size: 22px;
+  font-family: "Noto Serif";
+  font-size: 25px;
   font-weight: 400;
   line-height: 44px;
   letter-spacing: 0em;
   text-align: left;
   color: #390000;
+  width: 300px;
 }
 
 .indexSection2MiniContainersTituloActRecrea {
@@ -608,7 +602,7 @@ a:hover {
   letter-spacing: 0em;
   text-align: left;
   color: #BF304A;
-  width: 200px;
+  width: 300px;
 }
 
 .indexCarrouselImg {
@@ -629,11 +623,19 @@ a:hover {
   align-items: center;
 }
 
+.indexSection2Col2 {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .indexSection2MiniContainers {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
-  width: 300px;
+  width: 400px;
+  justify-content: space-between;
 }
 
 .indexSection2ButtonContainer {
@@ -662,7 +664,7 @@ a:hover {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   /*error*/
 }
 
@@ -683,7 +685,7 @@ a:hover {
   line-height: 44px;
   letter-spacing: 0em;
   text-align: center;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   margin: 20px;
 }
 
@@ -751,7 +753,7 @@ body {
   line-height: 44px;
   letter-spacing: 0em;
   text-align: center;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   margin: 20px;
 }
 
