@@ -55,9 +55,9 @@
 
 .nosotrosSectionTituloEquipo {
     text-align: center;
-    color: #BF304A;
-    font-family: Quicksand;
-    font-size: 64px;
+    color: $TitulosPagesColor;
+    font-family: $TitulosPagesFontFamily;
+    font-size: $TitulosPagesFontSize;
     font-weight: 700;
     line-height: 80px;
     letter-spacing: 0em;

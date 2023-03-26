@@ -121,8 +121,8 @@ a .logo {
 .nosotrosSectionTituloEquipo {
   text-align: center;
   color: #BF304A;
-  font-family: Quicksand;
-  font-size: 64px;
+  font-family: "Quicksand";
+  font-size: 50px;
   font-weight: 700;
   line-height: 80px;
   letter-spacing: 0em;
@@ -230,9 +230,18 @@ a .logo {
   top: 291px;
 }
 
+.contactoFormTexto {
+  font-family: Quicksand;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
 .contactoFormContainerTextoContactese {
   font-family: Quicksand;
-  font-size: 40px;
+  font-size: 29px;
   font-weight: 400;
   line-height: 50px;
   letter-spacing: 0em;
@@ -278,7 +287,7 @@ a .logo {
 .contactoButtonEnviar {
   box-sizing: border-box;
   width: 199px;
-  height: 42px;
+  height: 49px;
   background-color: #BF304A;
   border: 1px solid #000000;
   border-radius: 20px;
@@ -294,7 +303,7 @@ a .logo {
 .contactoContainerInfo {
   display: flex;
   flex-wrap: wrap;
-  height: 380px;
+  min-height: 480px;
   list-style-type: none;
   padding-left: 0px;
   flex-direction: column;
@@ -303,6 +312,20 @@ a .logo {
 
 .contactoMensajeInput {
   height: 120px;
+}
+
+.contactoMensajePlaceHolder {
+  height: 60px;
+}
+
+.contactoMensajePlaceHolderET {
+  height: 60px;
+  width: 340px;
+}
+
+.contactoMensajePlaceHolderT {
+  height: 60px;
+  width: 360px;
 }
 
 /*como trabajamos*/
@@ -423,7 +446,7 @@ a .logo {
 }
 
 .cTcontainerSol {
-  width: 200px;
+  width: 280px;
   height: 400px;
 }
 
@@ -546,6 +569,10 @@ a:hover {
   z-index: 1;
 }
 
+.strongColor {
+  color: #BF304A;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -554,7 +581,7 @@ a:hover {
 
 .indexSection3Info {
   font-family: Montserrat;
-  font-size: 38px;
+  font-size: 28px;
   font-weight: 600;
   line-height: 59px;
   letter-spacing: 0em;
@@ -642,6 +669,7 @@ a:hover {
   display: flex;
   justify-content: center;
   color: white;
+  margin-bottom: 45px;
 }
 
 .indexSection2ButtonContainer a:hover {
