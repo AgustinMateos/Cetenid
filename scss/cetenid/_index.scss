@@ -29,7 +29,7 @@
 
 .indexSection2MiniContainersTitulo {
     font-family: Montserrat;
-    font-size: 36px;
+    font-size: $TextoCeteInconosTituloFontSize;
     font-weight: 600;
     line-height: 44px;
     letter-spacing: 0em;
@@ -53,7 +53,7 @@
 
 .indexSection2MiniContainersTituloActRecrea {
     font-family: Montserrat;
-    font-size: 36px;
+    font-size: $TextoCeteInconosTituloFontSize;
     font-weight: 600;
     line-height: 44px;
     letter-spacing: 0em;
@@ -132,7 +132,7 @@
 }
 
 .uk-child-width-1-2\@s>* {
-    width: 40%;
+    width: 35%;
 }
 
 .indexSection3Button {

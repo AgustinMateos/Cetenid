@@ -24,7 +24,7 @@
     text-align: center;
     color: $TextoCeteIconosColor;
 }
-
+.nosotrosSection1TituloCont{width: 100%;display: flex;justify-content: center;}
 .nosotrosSection1Titulo {
     color: $TitulosPagesColor;
     font-family: $TitulosPagesFontFamily;
@@ -34,6 +34,7 @@
     letter-spacing: 0em;
     text-align: center;
     border-bottom: 1px solid #000000;
+    width: 400px;
     
 }
 
@@ -84,19 +85,18 @@
     font-family: Quicksand;
     font-size: 1px;
     color: #390000;
-    font-family: Quicksand;
-    font-size: 26px;
+    font-size: $TextoCardsSociasFontSize;
     font-weight: 500;
-    line-height: 45px;
+    line-height: $TextoCardsSociasLine-Height;
     letter-spacing: 0em;
     text-align: center;
 }
 
 .nosotrosTextoProfesionales {
-    font-family: Quicksand;
-    font-size: 35px;
+    font-family: $TextoCardsSociasFontaFamily;
+    font-size: $TextoCardsSociasTituloFontSize;
     font-weight: 500;
-    line-height: 70px;
+    line-height: $TextoCardsSociasLine-Height;
     letter-spacing: 0em;
     text-align: center;
     color: #390000;
@@ -104,10 +104,10 @@
 }
 
 .nosotrosTextoProfesionalesAle {
-    font-family: Quicksand;
-    font-size: 35px;
+    font-family: $TextoCardsSociasFontaFamily;
+    font-size: $TextoCardsSociasTituloFontSize;
     font-weight: 500;
-    line-height: 60px;
+    line-height: $TextoCardsSociasLine-Height;
     letter-spacing: 0em;
     text-align: center;
     color: #390000;

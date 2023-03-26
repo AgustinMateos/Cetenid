@@ -94,6 +94,12 @@ a .logo {
   color: #390000;
 }
 
+.nosotrosSection1TituloCont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .nosotrosSection1Titulo {
   color: #BF304A;
   font-family: "Quicksand";
@@ -103,6 +109,7 @@ a .logo {
   letter-spacing: 0em;
   text-align: center;
   border-bottom: 1px solid #000000;
+  width: 400px;
 }
 
 .nosotrosSection1TituloTexto {
@@ -146,29 +153,28 @@ a .logo {
   font-family: Quicksand;
   font-size: 1px;
   color: #390000;
-  font-family: Quicksand;
-  font-size: 26px;
+  font-size: 18px;
   font-weight: 500;
-  line-height: 45px;
+  line-height: 26px;
   letter-spacing: 0em;
   text-align: center;
 }
 
 .nosotrosTextoProfesionales {
-  font-family: Quicksand;
-  font-size: 35px;
+  font-family: "Quicksand";
+  font-size: 25PX;
   font-weight: 500;
-  line-height: 70px;
+  line-height: 26px;
   letter-spacing: 0em;
   text-align: center;
   color: #390000;
 }
 
 .nosotrosTextoProfesionalesAle {
-  font-family: Quicksand;
-  font-size: 35px;
+  font-family: "Quicksand";
+  font-size: 25PX;
   font-weight: 500;
-  line-height: 60px;
+  line-height: 26px;
   letter-spacing: 0em;
   text-align: center;
   color: #390000;
@@ -352,6 +358,14 @@ a .logo {
   border: 10px double black;
 }
 
+.cTsectionContainerImg2 img {
+  height: 350px;
+  max-width: 130%;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 10px double black;
+}
+
 .cTsectionContainerTexto {
   width: 50%;
 }
@@ -362,7 +376,6 @@ a .logo {
   font-style: normal;
   font-size: 24px;
   line-height: 54px;
-  display: flex;
   align-items: center;
   text-align: center;
   flex-direction: column;
@@ -569,6 +582,11 @@ a:hover {
   z-index: 1;
 }
 
+.whatsapp img {
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0.5em 1.3em 1em rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+
 .strongColor {
   color: #BF304A;
 }
@@ -601,7 +619,7 @@ a:hover {
 
 .indexSection2MiniContainersTitulo {
   font-family: Montserrat;
-  font-size: 36px;
+  font-size: 26px;
   font-weight: 600;
   line-height: 44px;
   letter-spacing: 0em;
@@ -623,7 +641,7 @@ a:hover {
 
 .indexSection2MiniContainersTituloActRecrea {
   font-family: Montserrat;
-  font-size: 36px;
+  font-size: 26px;
   font-weight: 600;
   line-height: 44px;
   letter-spacing: 0em;
@@ -697,7 +715,7 @@ a:hover {
 }
 
 .uk-child-width-1-2\@s > * {
-  width: 40%;
+  width: 35%;
 }
 
 .indexSection3Button {
