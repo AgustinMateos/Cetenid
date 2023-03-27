@@ -574,9 +574,6 @@ a:hover {
   line-height: 20px;
   letter-spacing: 0em;
   text-align: left;
-}
-
-.footerMenu {
   box-shadow: inset 0 0 0 0 #BF304A;
   color: #390000;
   padding: 0 0.25rem;
@@ -840,14 +837,6 @@ a:hover {
     list-style: none;
     width: 100px;
   }
-  .footerMenu {
-    font-family: Quicksand;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 20px;
-    letter-spacing: 0em;
-    text-align: left;
-  }
   .indexFooterCoberturaContainer h3 {
     border-bottom: 1px solid #390000;
     margin-bottom: 0px;
@@ -915,6 +904,19 @@ a:hover {
     list-style: none;
     width: 100%;
   }
+  .footerMenu {
+    font-family: Quicksand;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    box-shadow: inset 0 0 0 0 #BF304A;
+    color: #390000;
+    padding: 0 0.25rem;
+    margin: 0 -0.25rem;
+    transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
 }
 @media (max-width: 347px) {
   .uk-list-large > * > ul, .uk-list-large > :nth-child(n+2) {
@@ -931,15 +933,6 @@ a:hover {
     text-align: left;
   }
 }
-.footerMenu {
-  font-family: Quicksand;
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 20px;
-  letter-spacing: 0em;
-  text-align: left;
-}
-
 @media (max-width: 320px) {
   .indexFooterCoberturaContainer {
     border: 1px solid #390000;
