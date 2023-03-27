@@ -613,7 +613,7 @@ a:hover {
   .footerContainerInfo {
     display: flex;
     flex-wrap: wrap;
-    height: 260px;
+    height: 360px;
     list-style-type: none;
     padding-left: 0px;
     flex-direction: column;
@@ -727,6 +727,95 @@ a:hover {
     flex-direction: column;
   }
 }
+@media (max-width: 719px) {
+  .contactoDataContainer {
+    width: 90%;
+    margin-top: 20px;
+    padding-left: 45px;
+  }
+  .contactoDataContainer h1 {
+    font-family: "Quicksand";
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #BF304A;
+    padding-top: 7px;
+    border-bottom: 1px solid #000000;
+    margin-top: 2px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .contactoContainerSection1 {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contactoContainerInfo {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 480px;
+    list-style-type: none;
+    padding-left: 0px;
+    flex-direction: column;
+    line-height: 14px;
+    align-items: center;
+    text-align: center;
+  }
+  .contactoFormContainer h1 {
+    font-family: "Quicksand";
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #BF304A;
+    height: 91px;
+    border-bottom: 1px solid #000000;
+    text-align: center;
+    left: 763px;
+    top: 291px;
+  }
+  .contactoFormContainerTextoContactese {
+    font-family: Quicksand;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #390000;
+  }
+  .contactoFormContainer {
+    width: 80%;
+  }
+  .contactoMensajePlaceHolderET {
+    width: 100%;
+    text-align: center;
+  }
+  .contactoMensajePlaceHolderT {
+    width: 100%;
+    text-align: center;
+  }
+  .contactoMensajePlaceHolder {
+    height: 60px;
+    text-align: center;
+  }
+  .contactoMensajeInput {
+    height: 120px;
+    text-align: center;
+  }
+  .contactoContainerInfoTitulosP {
+    color: #390000;
+    font-family: "Quicksand";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+  }
+}
 @media (max-width: 513px) {
   .uk-list {
     padding: 0;
@@ -744,23 +833,6 @@ a:hover {
   }
 }
 @media (max-width: 494px) {
-  .footerCetCoberturaContainer {
-    display: flex;
-    max-width: 700px;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column-reverse;
-  }
-  .footerCetMenuContainerFlex {
-    display: flex;
-    width: 100%;
-  }
-  .uk-list {
-    padding: 0;
-    margin: 0px;
-    list-style: none;
-    width: 100%;
-  }
   .uk-navbar-nav > li > a {
     padding: 0 0;
     color: #390000;
@@ -773,6 +845,26 @@ a:hover {
     line-height: 20px;
     letter-spacing: 0em;
     text-align: center;
+  }
+  .footerCetCoberturaContainer {
+    display: flex;
+    max-width: 700px;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+  }
+  .footerCetMenuContainerFlex {
+    display: flex;
+    width: 100%;
+  }
+  .uk-child-width-1-2\@s > * {
+    width: 65%;
+  }
+  .uk-list {
+    padding: 0;
+    margin: 0px;
+    list-style: none;
+    width: 100%;
   }
 }
 * {
