@@ -119,15 +119,7 @@
 @media(max-width:782px) {
 
     //footer
-    .indexFooterContainer {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        margin-top: 20px;
-        padding-bottom: 10px;
-        flex-wrap: nowrap;
-        flex-direction: column-reverse;
-    }
+  
 
     .indexFooterContainer {
         display: flex;
@@ -138,7 +130,10 @@
         flex-wrap: nowrap;
         flex-direction: column;
     }
-    //nosotros card ali ale info
+    .footerContainerInfo {
+        
+        text-align: center;
+    }
     
 }
 //contacto
@@ -161,6 +156,7 @@
         margin-top: 2px;
         padding-bottom: 20px;
         text-align: center;
+        margin-right: 38px;
     }
     .contactoContainerSection1 {
     display: flex;
@@ -180,6 +176,7 @@
     line-height: 14px;
     align-items: center;
     text-align: center;
+    margin-right: 35px;
 }
 .contactoFormContainer h1 {
     font-family: "Quicksand";
@@ -231,6 +228,15 @@
     font-weight: 300;
     line-height: 25px;
 }
+.whatsapp { margin-bottom: 120px;
+   
+}
+
+.whatsapp img {
+   
+    
+          width:50px;
+}
 }
 
 @media(max-width:513px) {
@@ -247,6 +253,37 @@
         line-height: 20px;
         letter-spacing: 0em;
         text-align: left;
+    }
+    .indexFooterCoberturaContainer h3 {
+        border-bottom: 1px solid #390000;
+        margin-bottom: 0px;
+        font-family: Quicksand;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .indexFooterCoberturaContainer {
+        border: 1px solid #390000;
+        display: flex;
+        height: 210px;
+        max-width: 300px;
+        border-radius: 20px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .indexFooterCoberturaContainer p {
+        font-family: Quicksand;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 45px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #390000;
     }
 }
 
@@ -269,7 +306,7 @@
         max-width: 700px;
         align-items: center;
         justify-content: space-around;
-        flex-direction: column-reverse;
+        flex-direction: row;
     }
     .footerCetMenuContainerFlex{display: flex;width: 100%;}
     .uk-child-width-1-2\@s > * {
