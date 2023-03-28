@@ -10,6 +10,14 @@
         justify-content: center;
         margin-bottom: 0px;
         width: 300px;
+        margin-right: 5px;
+    }
+    .contactoContainerInfoTitulosP {
+        color: #390000;
+        font-family: "Quicksand";
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 25px;
     }
 }
 
@@ -252,11 +260,13 @@
     margin: 10px;
 }};
 @media(max-width:513px) {
-    .uk-list {
+    
+    .uk-list {//footer primera columna
         padding: 0;
         margin: 0px;
         list-style: none;
         width: 100px;
+        margin-right: 10px;
     }
     
     .indexFooterCoberturaContainer h3 {
@@ -340,12 +350,36 @@
     
 
 }
+@media(max-width:370px){
+    .indexFooterCoberturaContainer p {
+        font-family: Quicksand;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 45px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #390000;
+        margin: 10px;
+    }
+
+    .indexFooterCoberturaContainer h3 {
+        border-bottom: 1px solid #390000;
+        margin-bottom: 0px;
+        font-family: Quicksand;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+}
 
 @media(max-width:347px) {
 
 .uk-list-large>*>ul, .uk-list-large>:nth-child(n+2) {
     margin-top: 20px;
-}}
+}
+}
 @media(max-width:327){
     .footerMenu {
         font-family: Quicksand;
@@ -361,7 +395,7 @@
     .indexFooterCoberturaContainer {
         border: 1px solid #390000;
         display: flex;
-        height: 280px;
+        height: 240px;
         max-width: 300px;
         border-radius: 20px;
         flex-direction: column;
