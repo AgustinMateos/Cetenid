@@ -608,6 +608,18 @@ a:hover {
   color: #BF304A;
 }
 
+@media (max-width: 1336px) {
+  .uk-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    flex-direction: column-reverse !important;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
 @media (max-width: 1227px) {
   .footerContainerInfo {
     display: flex;
@@ -896,6 +908,11 @@ a:hover {
     text-align: center;
     color: #390000;
     margin: 10px;
+  }
+  .nosotrosSectionEquipoTexto {
+    margin: 0px;
+    text-align: center;
+    padding-left: 0px;
   }
 }
 @media (max-width: 494px) {
