@@ -134,6 +134,7 @@
 }
 
 @media(max-width:852px){//index
+   
     .indexSection2 {
         display: flex;
         justify-content: space-evenly;
@@ -147,9 +148,7 @@
     .uk-child-width-1-2\@s > * {
         width: 65% !important;
     }
-    .indexSection2ContainerCetenid {
-    margin: 20px;
-}
+    
     
 }
 
@@ -173,7 +172,11 @@
 
         text-align: center;
     }
-
+    .indexSection2ContainerCetenid {
+        border-left: 3px solid #BF304A;
+        padding: 20px;
+        margin: 20px;
+    }
 }
 
 //contacto

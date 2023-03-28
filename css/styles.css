@@ -745,6 +745,11 @@ a:hover {
   .footerContainerInfo {
     text-align: center;
   }
+  .indexSection2ContainerCetenid {
+    border-left: 3px solid #BF304A;
+    padding: 20px;
+    margin: 20px;
+  }
 }
 @media (max-width: 719px) {
   .contactoDataContainer {
