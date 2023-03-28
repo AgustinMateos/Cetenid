@@ -729,7 +729,7 @@ a:hover {
     flex-direction: column;
   }
   .uk-child-width-1-2\@s > * {
-    width: 35%;
+    width: 65% !important;
   }
 }
 @media (max-width: 783px) {
@@ -1022,7 +1022,6 @@ a:hover {
   font-weight: 600;
   line-height: 59px;
   letter-spacing: 0em;
-  text-align: right;
   color: #8C2A3B;
 }
 
