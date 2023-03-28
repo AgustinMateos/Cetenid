@@ -718,6 +718,20 @@ a:hover {
     padding-top: 20px;
   }
 }
+@media (max-width: 852px) {
+  .indexSection2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  .uk-grid {
+    flex-direction: column;
+  }
+  .uk-child-width-1-2\@s > * {
+    width: 35%;
+  }
+}
 @media (max-width: 783px) {
   .indexFooterContainer {
     display: flex;
@@ -904,9 +918,6 @@ a:hover {
     display: flex;
     width: 100%;
   }
-  .uk-child-width-1-2\@s > * {
-    width: 65%;
-  }
   .uk-list {
     padding: 0;
     margin: 0px;
@@ -999,6 +1010,10 @@ a:hover {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+.indexSection2Container1 {
+  max-width: 700px;
 }
 
 .indexSection3Info {

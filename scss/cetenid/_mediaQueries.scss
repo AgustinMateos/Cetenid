@@ -82,6 +82,7 @@
     }
 }
 
+
 @media(max-width:869px) {
 
     //navbar
@@ -131,6 +132,24 @@
         padding-top: 20px;
     }
 }
+
+@media(max-width:852px){//index
+    .indexSection2 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .uk-grid {
+        flex-direction: column;
+        
+    }
+    .uk-child-width-1-2\@s > * {
+        width: 35%;
+    }
+    
+}
+
 
 @media(max-width:783px) {
 
@@ -356,9 +375,7 @@
         width: 100%;
     }
 
-    .uk-child-width-1-2\@s>* {
-        width: 65%;
-    }
+    
 
     .uk-list {
         padding: 0;
