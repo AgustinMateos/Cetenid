@@ -2,7 +2,7 @@
     .footerContainerInfo {
         display: flex;
         flex-wrap: wrap;
-        height:360px;
+        height: 360px;
         list-style-type: none;
         padding-left: 0px;
         flex-direction: column;
@@ -12,6 +12,7 @@
         width: 300px;
         margin-right: 5px;
     }
+
     .contactoContainerInfoTitulosP {
         color: #390000;
         font-family: "Quicksand";
@@ -73,10 +74,11 @@
         list-style: none;
         width: 200px;
     }
+
     .indexFooterContainer {
-       
+
         margin-right: 20px;
-        margin-left:20px;
+        margin-left: 20px;
     }
 }
 
@@ -123,6 +125,7 @@
         letter-spacing: 0em;
         text-align: center;
     }
+
     .nosotrosSection1TituloTexto {
         width: 95%;
         padding-top: 20px;
@@ -132,7 +135,7 @@
 @media(max-width:783px) {
 
     //footer
-  
+
 
     .indexFooterContainer {
         display: flex;
@@ -143,19 +146,22 @@
         flex-wrap: nowrap;
         flex-direction: column;
     }
+
     .footerContainerInfo {
-        
+
         text-align: center;
     }
-    
+
 }
+
 //contacto
-@media (max-width:719px){
+@media (max-width:719px) {
     .contactoDataContainer {
         width: 90%;
         margin-top: 20px;
         padding-left: 45px;
     }
+
     .contactoDataContainer h1 {
         font-family: "Quicksand";
         font-size: 50px;
@@ -171,104 +177,121 @@
         text-align: center;
         margin-right: 38px;
     }
+
     .contactoContainerSection1 {
-    display: flex;
-    flex-wrap: nowrap;
-    width: 100%;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-}
-.contactoContainerInfo {
-    display: flex;
-    flex-wrap: wrap;
-    min-height: 480px;
-    list-style-type: none;
-    padding-left: 0px;
-    flex-direction: column;
-    line-height: 14px;
-    align-items: center;
-    text-align: center;
-    margin-right: 35px;
-}
-.contactoFormContainer h1 {
-    font-family: "Quicksand";
-    font-size: 50px;
-    font-weight: 600;
-    line-height: 80px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #BF304A;
-    height: 91px;
-    border-bottom: 1px solid #000000;
-    text-align: center;
-    left: 763px;
-    top: 291px;
-}
-.contactoFormContainerTextoContactese {
-    font-family: Quicksand;
-    font-size: 29px;
-    font-weight: 400;
-    line-height: 50px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #390000;
-}
-.contactoFormContainer {
-    width: 80%;
-}
-.contactoMensajePlaceHolderET {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
 
-    width: 100%;
-    text-align: center;
-}
-.contactoMensajePlaceHolderT {
-    width: 100%;
-    text-align: center;
-}
-.contactoMensajePlaceHolder {
-    height: 60px;
-    text-align: center;
-}
-.contactoMensajeInput {
-    height: 120px;
-    text-align: center;
-}
-.contactoContainerInfoTitulosP {
-    color: #390000;
-    font-family: "Quicksand";
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 25px;
-}
+    .contactoContainerInfo {
+        display: flex;
+        flex-wrap: wrap;
+        min-height: 480px;
+        list-style-type: none;
+        padding-left: 0px;
+        flex-direction: column;
+        line-height: 14px;
+        align-items: center;
+        text-align: center;
+        margin-right: 35px;
+    }
+
+    .contactoFormContainer h1 {
+        font-family: "Quicksand";
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 80px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #BF304A;
+        height: 91px;
+        border-bottom: 1px solid #000000;
+        text-align: center;
+        left: 763px;
+        top: 291px;
+    }
+
+    .contactoFormContainerTextoContactese {
+        font-family: Quicksand;
+        font-size: 29px;
+        font-weight: 400;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #390000;
+    }
+
+    .contactoFormContainer {
+        width: 80%;
+    }
+
+    .contactoMensajePlaceHolderET {
+
+        width: 100%;
+        text-align: center;
+    }
+
+    .contactoMensajePlaceHolderT {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contactoMensajePlaceHolder {
+        height: 60px;
+        text-align: center;
+    }
+
+    .contactoMensajeInput {
+        height: 120px;
+        text-align: center;
+    }
+
+    .contactoContainerInfoTitulosP {
+        color: #390000;
+        font-family: "Quicksand";
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 25px;
+    }
 
 
-.whatsapp img {
-   
-    
-          width:30px;
+    .whatsapp img {
+
+
+        width: 30px;
+    }
 }
+
+@media (max-width:567) {
+    .indexFooterCoberturaContainer p {
+        font-family: Quicksand;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 45px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #390000;
+        margin: 10px;
+    }
 }
-@media (max-width:567){.indexFooterCoberturaContainer p {
-    font-family: Quicksand;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 45px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #390000;
-    margin: 10px;
-}};
+
+;
+
 @media(max-width:513px) {
-    
-    .uk-list {//footer primera columna
+
+    .uk-list {
+        //footer primera columna
         padding: 0;
         margin: 0px;
         list-style: none;
         width: 100px;
         margin-right: 10px;
     }
-    
+
     .indexFooterCoberturaContainer h3 {
         border-bottom: 1px solid #390000;
         margin-bottom: 0px;
@@ -279,6 +302,7 @@
         letter-spacing: 0em;
         text-align: center;
     }
+
     .indexFooterCoberturaContainer {
         border: 1px solid #390000;
         display: flex;
@@ -291,6 +315,7 @@
         text-align: center;
         padding-top: 20px;
     }
+
     .indexFooterCoberturaContainer p {
         font-family: Quicksand;
         font-size: 15px;
@@ -304,7 +329,7 @@
 }
 
 @media(max-width:494px) {
-      .uk-navbar-nav > li > a {
+    .uk-navbar-nav>li>a {
         padding: 0 0;
         color: #390000;
         text-transform: uppercase;
@@ -317,6 +342,7 @@
         letter-spacing: 0em;
         text-align: center;
     }
+
     .footerCetCoberturaContainer {
         display: flex;
         max-width: 700px;
@@ -324,16 +350,23 @@
         justify-content: space-around;
         flex-direction: row;
     }
-    .footerCetMenuContainerFlex{display: flex;width: 100%;}
-    .uk-child-width-1-2\@s > * {
+
+    .footerCetMenuContainerFlex {
+        display: flex;
+        width: 100%;
+    }
+
+    .uk-child-width-1-2\@s>* {
         width: 65%;
     }
+
     .uk-list {
         padding: 0;
         margin: 0px;
         list-style: none;
         width: 100%;
     }
+
     .footerMenu {
         font-family: Quicksand;
         font-size: 12px;
@@ -347,19 +380,35 @@
         margin: 0 -.25rem;
         transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
     }
-    
+
 
 }
-@media(max-width:370px){
-    .indexFooterCoberturaContainer p {
-        font-family: Quicksand;
-        font-size: 12px;
-        font-weight: 700;
-        line-height: 45px;
-        letter-spacing: 0em;
+
+@media(max-width:380px) {
+    .indexFooterCoberturaContainer {
+        border: 1px solid #390000;
+        display: flex;
+        height: 270px;
+        max-width: 300px;
+        border-radius: 20px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         text-align: center;
-        color: #390000;
-        margin: 10px;
+        padding-top: 20px;
+    }
+
+    @media(max-width:370px) {
+        .indexFooterCoberturaContainer p {
+            font-family: Quicksand;
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 45px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #390000;
+            margin: 10px;
+        }
     }
 
     .indexFooterCoberturaContainer h3 {
@@ -376,11 +425,13 @@
 
 @media(max-width:347px) {
 
-.uk-list-large>*>ul, .uk-list-large>:nth-child(n+2) {
-    margin-top: 20px;
+    .uk-list-large>*>ul,
+    .uk-list-large>:nth-child(n+2) {
+        margin-top: 20px;
+    }
 }
-}
-@media(max-width:327){
+
+@media(max-width:327) {
     .footerMenu {
         font-family: Quicksand;
         font-size: 13px;
@@ -404,4 +455,4 @@
         text-align: center;
         padding-top: 20px;
     }
-    }
+}
