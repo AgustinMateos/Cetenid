@@ -159,7 +159,7 @@
         
     }
     .uk-child-width-1-2\@s > * {
-        width: 65% !important;
+        width: 65% ;
     }
     
     
@@ -189,6 +189,10 @@
         border-left: 3px solid #BF304A;
         padding: 20px;
         margin: 20px;
+    }
+    .indexSection3Info {
+        
+        text-align: center;
     }
 }
 
@@ -318,6 +322,12 @@
         color: #390000;
         margin: 10px;
     }
+    .indexSection3Info {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 49px;
+       
+    }
 }
 
 ;
@@ -371,6 +381,12 @@
         margin: 0px;
         text-align: center;
         padding-left: 0px;
+    }
+    .indexSection3Info {
+        font-family: Montserrat;
+        font-size: 18px;
+     
+        
     }
 }
 
@@ -438,15 +454,15 @@
         flex-direction: column;
     }
     .indexSection2MiniContainersTitulo {
-        text-align: center !important;
+        text-align: center;
         
     }
     .indexSection2MiniContainersTituloActRecrea {
-        text-align: center !important;
+        text-align: center ;
         
     }
     .indexSection2MiniContainersTituloP {
-        text-align: center !important;
+        text-align: center;
         
     }
 }
