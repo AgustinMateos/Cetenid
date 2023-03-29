@@ -6,7 +6,7 @@
         margin: 0;
         padding: 0;
         list-style: none;
-        flex-direction: column-reverse !important;
+       // flex-direction: column-reverse !important;
         align-items: center;
         justify-content: space-evenly;
     }
@@ -426,6 +426,29 @@
     }
 
 
+}
+
+@media(max-width:447px){
+    .indexSection2MiniContainers {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 400px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .indexSection2MiniContainersTitulo {
+        text-align: center !important;
+        
+    }
+    .indexSection2MiniContainersTituloActRecrea {
+        text-align: center !important;
+        
+    }
+    .indexSection2MiniContainersTituloP {
+        text-align: center !important;
+        
+    }
 }
 
 @media(max-width:380px) {
