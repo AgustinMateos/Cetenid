@@ -1291,6 +1291,12 @@ body {
   .indexSection2MiniContainersTituloP {
     text-align: center;
   }
+  .cTsectionContainerImg img {
+    height: 450px;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+  }
 }
 @media (max-width: 380px) {
   .indexFooterCoberturaContainer {
