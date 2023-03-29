@@ -849,6 +849,7 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: space-evenly;
   }
