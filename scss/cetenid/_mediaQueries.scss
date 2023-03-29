@@ -1,4 +1,8 @@
-
+@media(max-width:7000px){
+    .solMobile{
+        display: none;
+    }
+}
 @media (max-width:1336px){
     .uk-grid {
         display: flex;
@@ -9,6 +13,10 @@
        flex-direction: column-reverse ;
         align-items: center;
         justify-content: space-evenly;
+    }
+    .cTsection2ContainerTituloSoles {
+        width: auto;
+        
     }
 }
 @media(max-width:1227px) {
@@ -79,6 +87,9 @@
         letter-spacing: 0em;
         text-align: center;
     }
+    .cTsectionContainerTexto {
+        width: 80%;
+    }
 
     //footer
     .uk-list {
@@ -109,8 +120,23 @@
 }
 
 
-@media(max-width:869px) {
-
+@media(max-width:871px) {
+    .cTcontainerSol {
+        display: none;
+    }
+    .solMobile {
+        display: flex;
+    }
+    .cTcontainerNuestrasTerapiasSoles {
+        display: flex;
+        height: 900px;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: space-evenly;
+        margin: 13px;
+        flex-direction: column;
+    }
     //navbar
     .uk-navbar {
         display: flex;
@@ -157,6 +183,8 @@
         width: 95%;
         padding-top: 20px;
     }
+    .cTcontainerSol{display: none};
+    
 }
 
 @media(max-width:852px){//index
