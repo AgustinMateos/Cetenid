@@ -867,6 +867,14 @@ body {
   .cTsection2ContainerTituloSoles {
     width: auto;
   }
+  .uk-child-width-1-2\@m > * {
+    width: 100%;
+  }
+}
+@media (max-width: 1329px) {
+  .uk-child-width-1-2\@m > * {
+    width: 100%;
+  }
 }
 @media (max-width: 1227px) {
   .footerContainerInfo {
@@ -1143,6 +1151,19 @@ body {
     width: 30px;
   }
 }
+@media (max-width: 610px) {
+  .cTsectionContainerImg img {
+    height: 450px;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+}
+@media (max-width: 610px) {
+  .cTsectionContainerImg {
+    width: 100%;
+  }
+}
 @media (max-width: 567) {
   .indexFooterCoberturaContainer p {
     font-family: Quicksand;
@@ -1163,6 +1184,10 @@ body {
 @media (max-width: 595px) {
   .nosotrosSectionTituloEquipo {
     font-size: 40px;
+  }
+  .cTcontainerTexto {
+    font-size: 18px;
+    line-height: 34px;
   }
 }
 @media (max-width: 513px) {
@@ -1224,8 +1249,24 @@ body {
     text-align: center;
     color: #390000;
   }
+  .cTsectionContainerTextoTitulo {
+    font-size: 30px;
+  }
+  .cTsection2ContainerTituloSoles h1 {
+    font-size: 27px;
+  }
+  .cTsection2ContainerTituloSoles h1 {
+    text-align: center;
+  }
+  .cTcontainerNuestrasTerapiasSolesStyle {
+    font-size: 20px;
+  }
 }
 @media (max-width: 494px) {
+  .indexSection2ContainerCetenidTextoPrincipal {
+    font-size: 20px;
+    line-height: 30px;
+  }
   .uk-navbar-nav > li > a {
     padding: 0 0;
     color: #390000;
@@ -1254,7 +1295,7 @@ body {
     padding: 0;
     margin: 0px;
     list-style: none;
-    width: 100%;
+    width: 9%;
   }
   .footerMenu {
     font-family: Quicksand;
@@ -1330,6 +1371,11 @@ body {
     margin-top: 20px;
   }
 }
+@media (max-width: 329px) {
+  .cTsectionContainerImg img {
+    max-width: 100%;
+  }
+}
 @media (max-width: 327) {
   .footerMenu {
     font-family: Quicksand;
@@ -1338,6 +1384,10 @@ body {
     line-height: 20px;
     letter-spacing: 0em;
     text-align: left;
+  }
+  .cTcontainerTexto {
+    font-size: 24px;
+    line-height: 54px;
   }
 }
 @media (max-width: 320px) {
