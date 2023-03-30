@@ -21,7 +21,14 @@
     .uk-child-width-1-2\@m>* {
         width: 100%;
     }
-    
+    * + .uk-grid-margin, .uk-grid + .uk-grid, .uk-grid > .uk-grid-margin {
+        
+        padding-left: 0px;
+    }
+    .uk-grid>*>:last-child {
+        
+        padding-left: 0px;
+    }
 }
 @media (max-width: 1329px){.uk-child-width-1-2\@m>* {
     width: 100%;
@@ -210,7 +217,9 @@
     .uk-child-width-1-2\@s > * {
         width: 65% ;
     }
-    
+    .uk-grid-item-match > :not([class*=uk-width]), .uk-grid-match > * > :not([class*=uk-width]) {
+        padding-right: 0px;
+    }
     
 }
 
@@ -372,6 +381,24 @@
     }
 }
 
+
+;
+@media(max-width: 595px){
+    .nosotrosSectionTituloEquipo {
+    font-size: 40px;
+   
+}
+.cTcontainerTexto {
+   
+    font-size: 18px;
+    line-height: 34px;
+   
+}
+.cTsection2ContainerTituloSoles h1 {
+    font-size: 32px;
+    
+}}
+
 @media (max-width:567) {
     .indexFooterCoberturaContainer p {
         font-family: Quicksand;
@@ -389,21 +416,13 @@
         line-height: 49px;
        
     }
+    .uk-grid>* {
+        padding-left: 0px;
+    }
+  
+    
+    
 }
-
-;
-@media(max-width: 595px){
-    .nosotrosSectionTituloEquipo {
-    font-size: 40px;
-   
-}
-.cTcontainerTexto {
-   
-    font-size: 18px;
-    line-height: 34px;
-   
-}}
-
 @media(max-width:513px) {
 
     .uk-list {
@@ -548,6 +567,10 @@
     .nosotrosSectionTituloEquipo {
         font-size: 30px;
     }
+    .uk-grid>* {
+        padding-left: 0px;
+        
+    }
   
 }
 
@@ -567,6 +590,15 @@
     .indexSection2MiniContainersTituloActRecrea {
         text-align: center ;
         
+    }
+    .cTsectionContainerImg img {
+        height: 396px;
+    
+       
+    }
+
+    .cTsectionContainerTextoTitulo {
+        font-size: 28px;
     }
     .indexSection2MiniContainersTituloP {
         text-align: center;
@@ -594,7 +626,7 @@
         padding-top: 20px;
     }}
 
-    @media(max-width:370px) {
+    @media(max-width:372px) {
         .indexFooterCoberturaContainer p {
             font-family: Quicksand;
             font-size: 12px;
@@ -604,6 +636,9 @@
             text-align: center;
             color: #390000;
             margin: 10px;
+        }
+        .cTsectionContainerTextoTitulo {
+            font-size: 23px;
         }
        
     }
