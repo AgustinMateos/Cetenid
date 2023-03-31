@@ -852,6 +852,10 @@ body {
   .solMobile {
     display: none;
   }
+  .uk-child-width-1-3\@m > * {
+    width: 33.3222259247%;
+    padding: 0px;
+  }
 }
 @media (max-width: 1336px) {
   .uk-grid {
@@ -875,6 +879,9 @@ body {
   }
   .uk-grid > * > :last-child {
     padding-left: 0px;
+  }
+  .indexSection3Info {
+    text-align: center;
   }
 }
 @media (max-width: 1329px) {
@@ -1025,6 +1032,13 @@ body {
   }
   .cTcontainerSol {
     display: none;
+  }
+  .cTsectionContainerImg img {
+    max-width: 100%;
+  }
+  [class*=uk-child-width] > * {
+    box-sizing: border-box;
+    width: none;
   }
 }
 @media (max-width: 852px) {
@@ -1183,6 +1197,17 @@ body {
   }
   .cTsection2ContainerTituloSoles h1 {
     font-size: 32px;
+  }
+  .indexSection3Info {
+    line-height: 35px;
+  }
+  .indexSection3Info {
+    font-size: 20px;
+    line-height: 49px;
+  }
+  .indexSection3Info {
+    font-size: 20px;
+    line-height: 40px;
   }
 }
 @media (max-width: 567) {
