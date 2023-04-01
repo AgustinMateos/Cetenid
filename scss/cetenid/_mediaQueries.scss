@@ -37,6 +37,11 @@
         
         text-align: center;
     }
+    .cTsectionContainerImg img {
+       
+        max-width: 100%;
+       
+    }
 }
 @media (max-width: 1329px){.uk-child-width-1-2\@m>* {
     width: 100%;
@@ -251,6 +256,12 @@
     }
     
 }
+@media(max-width:823px){
+    .uk-child-width-1-3\@m > * {
+        width: 50%;
+        padding: 0px;
+    }
+}
 
 
 @media(max-width:783px) {
@@ -314,6 +325,7 @@
         justify-content: space-around;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 20px;
     }
 
     .contactoContainerInfo {
@@ -398,6 +410,22 @@
     .galeriaContainerTituloJugamos {
         min-height: 500px;
         flex-direction: column;
+    }
+}
+@media(max-width:621px){
+    .contactoMensajePlaceHolder {
+        
+        margin-left: 0px;
+    }
+    .contactoMensajePlaceHolderET {
+        margin-left: 0px;
+    }
+    .contactoMensajePlaceHolderT {
+        margin-left: 0px;
+    }
+    .contactoMensajeInput {
+       
+        margin-left: 0px;
     }
 }
 @media(max-width:610px){
