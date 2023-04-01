@@ -358,6 +358,7 @@ a .logo {
 
 .cTContainerTextoWidth {
   max-width: 500px;
+  padding-left: 0PX;
 }
 
 .cTsectionContainerImg img {
@@ -365,6 +366,7 @@ a .logo {
   max-width: 130%;
   object-fit: cover;
   border-radius: 20px;
+  box-shadow: 32px 19px 42px 0px rgba(0, 0, 0, 0.25);
 }
 
 .nosotrosSectionTituloEquipoFoto img {
@@ -373,11 +375,16 @@ a .logo {
   box-shadow: 32px 19px 42px 0px rgba(0, 0, 0, 0.25);
 }
 
+.cTsectionContainerImg2 {
+  padding-left: 0px;
+}
+
 .cTsectionContainerImg2 img {
   height: 350px;
   max-width: 130%;
   object-fit: cover;
   border-radius: 20px;
+  box-shadow: 32px 19px 42px 0px rgba(0, 0, 0, 0.25);
 }
 
 .cTsectionContainerTexto {
@@ -388,7 +395,7 @@ a .logo {
   color: #390000;
   font-family: "Noto Serif";
   font-style: normal;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 54px;
   align-items: center;
   text-align: center;
@@ -527,6 +534,7 @@ a .logo {
   justify-content: center;
   text-align: center;
   padding-top: 20px;
+  box-shadow: 32px 19px 42px 0px rgba(0, 0, 0, 0.25);
 }
 .indexFooterCoberturaContainer h3 {
   border-bottom: 1px solid #390000;
@@ -810,6 +818,7 @@ a:hover {
   text-align: center;
   font-family: "Montserrat";
   margin: 20px;
+  box-shadow: 32px 19px 42px 0px rgba(71, 71, 71, 0.25);
 }
 
 .indexSection3ButtonContainer {
@@ -1118,6 +1127,7 @@ body {
   }
   .uk-grid-item-match > :not([class*=uk-width]), .uk-grid-match > * > :not([class*=uk-width]) {
     padding-right: 0px;
+    margin: 20px;
   }
 }
 @media (max-width: 823px) {
