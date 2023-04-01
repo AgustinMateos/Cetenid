@@ -1437,6 +1437,10 @@ body {
   .indexSection2MiniContainersTitulo {
     text-align: center;
   }
+  .nosotrosSection1Titulo {
+    font-size: 45px;
+    width: 340px;
+  }
   .indexSection2MiniContainersTituloActRecrea {
     text-align: center;
   }
@@ -1487,7 +1491,7 @@ body {
   .nosotrosGaleriaWidthImgMobile {
     width: 300px;
   }
-  .nosotrosGaleriaWidthImgMobile .nosotrosSection1Titulo {
+  .nosotrosSection1Titulo {
     width: 300px;
   }
 }
