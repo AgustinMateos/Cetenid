@@ -41,6 +41,14 @@
 @media (max-width: 1329px){.uk-child-width-1-2\@m>* {
     width: 100%;
 }}
+@media(max-width:1281px){
+    .cTsectionContainerImg img {
+        height: 450px;
+        max-width: 100%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+}
 
 @media(max-width:1227px) {
     .footerContainerInfo {
@@ -56,6 +64,7 @@
         width: 300px;
         margin-right: 5px;
     }
+   
 
     .contactoContainerInfoTitulosP {
         color: #390000;
@@ -83,6 +92,7 @@
         letter-spacing: 0em;
         text-align: center;
     }
+  
 
     //footer
     .uk-list {

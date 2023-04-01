@@ -900,6 +900,14 @@ body {
     width: 100%;
   }
 }
+@media (max-width: 1281px) {
+  .cTsectionContainerImg img {
+    height: 450px;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+}
 @media (max-width: 1227px) {
   .footerContainerInfo {
     display: flex;
