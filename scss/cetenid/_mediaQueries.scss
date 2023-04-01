@@ -31,7 +31,7 @@
     }
     .uk-grid>*>:last-child {
         
-        padding-left: 0px;
+        padding-left: none;
     }
     .indexSection3Info {
         
@@ -148,7 +148,7 @@
         max-width: 100%;
         object-fit: cover;
         border-radius: 20px;
-        border: 10px double black;
+       
     }
 }
 

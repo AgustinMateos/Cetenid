@@ -1,5 +1,50 @@
-.galeriaContainerJugamosImg{max-width: 100%;max-height: 846px;}
-.galeriaContainerJugamosImg img{width: 100%; max-height: 846px;object-fit: cover;}
-*+.uk-grid-margin, .uk-grid+.uk-grid, .uk-grid>.uk-grid-margin {
+.galeriaContainerJugamosImg {
+    max-width: 100%;
+    max-height: 846px;
+    justify-self: stretch;
+    align-self: stretch;
+}
+
+.galeriaContainerJugamosImg img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    background-position: center;
+}
+
+.galeriaContainerTituloJugamos {
+    height: 300px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.galeriaContainerTituloJugamos p {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #390000;
+}
+
+*+.uk-grid-margin,
+.uk-grid+.uk-grid,
+.uk-grid>.uk-grid-margin {
     margin-top: 0px;
+}
+
+.galeriaImagenes img {
+    height: 250px;
+    object-fit:cover;
+    object-position:center;
+    
+}
+
+
+
+.galeriaSection1TituloCont {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
 }
