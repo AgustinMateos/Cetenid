@@ -615,6 +615,11 @@ a:hover {
   width: 70px;
 }
 
+.galeriaImagenes img {
+  height: 500px;
+  object-fit: cover;
+}
+
 .strongColor {
   color: #BF304A;
 }

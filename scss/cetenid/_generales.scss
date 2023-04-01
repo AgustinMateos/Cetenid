@@ -17,8 +17,9 @@
           0.5em 1.3em 1em rgba(0,0,0,0.3);
           border-radius: 50%;
            width:70px;
+           
 }
 
-
+.galeriaImagenes img{height: 500px; object-fit: cover;}
 
 .strongColor{color: $strongColor }
