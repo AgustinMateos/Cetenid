@@ -643,7 +643,7 @@ a:hover {
   font-weight: 700;
   line-height: 80px;
   letter-spacing: 0em;
-  text-align: left;
+  text-align: center;
   color: #390000;
 }
 
@@ -1003,6 +1003,9 @@ body {
   .cTsectionContainerTexto {
     width: 80%;
   }
+  .nosotrosGaleriaWidthImgMobile {
+    width: 500px;
+  }
   .uk-list {
     padding: 0;
     margin: 0px;
@@ -1092,6 +1095,9 @@ body {
   [class*=uk-child-width] > * {
     box-sizing: border-box;
     width: none;
+  }
+  .galeriaSection1TituloCont {
+    justify-content: center;
   }
 }
 @media (max-width: 852px) {
@@ -1227,6 +1233,12 @@ body {
     width: 30px;
   }
 }
+@media (max-width: 705px) {
+  .galeriaContainerTituloJugamos {
+    min-height: 500px;
+    flex-direction: column;
+  }
+}
 @media (max-width: 610px) {
   .cTsectionContainerImg img {
     height: 450px;
@@ -1234,8 +1246,6 @@ body {
     object-fit: cover;
     border-radius: 20px;
   }
-}
-@media (max-width: 610px) {
   .cTsectionContainerImg {
     width: 100%;
   }
@@ -1281,6 +1291,11 @@ body {
   }
   .uk-grid > * {
     padding-left: 0px;
+  }
+}
+@media (max-width: 529px) {
+  .nosotrosGaleriaWidthImgMobile {
+    width: 350px;
   }
 }
 @media (max-width: 513px) {
@@ -1468,6 +1483,12 @@ body {
   }
   .cTsectionContainerTextoTitulo {
     font-size: 23px;
+  }
+  .nosotrosGaleriaWidthImgMobile {
+    width: 300px;
+  }
+  .nosotrosGaleriaWidthImgMobile .nosotrosSection1Titulo {
+    width: 300px;
   }
 }
 @media (max-width: 347px) {

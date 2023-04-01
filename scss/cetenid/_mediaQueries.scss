@@ -123,7 +123,8 @@
     .cTsectionContainerTexto {
         width: 80%;
     }
-
+     //galeria
+     .nosotrosGaleriaWidthImgMobile{width: 500px }
     //footer
     .uk-list {
         padding: 0;
@@ -225,7 +226,9 @@
         box-sizing: border-box;
         width: none;
     }
-    
+    .galeriaSection1TituloCont {
+        justify-content: center;
+    }
 }
 
 @media(max-width:852px){//index
@@ -391,6 +394,12 @@
         width: 30px;
     }
 }
+@media(max-width:705px){
+    .galeriaContainerTituloJugamos {
+        min-height: 500px;
+        flex-direction: column;
+    }
+}
 @media(max-width:610px){
     .cTsectionContainerImg img {
         height: 450px;
@@ -398,14 +407,11 @@
         object-fit: cover;
         border-radius: 20px;
     }
-}
-
-
-@media(max-width:610px){
     .cTsectionContainerImg {
         width: 100%;
     }
 }
+
 
 
 ;
@@ -463,6 +469,11 @@
   
     
     
+}
+@media(max-width:529px){
+    .nosotrosGaleriaWidthImgMobile {
+        width: 350px;
+    }
 }
 @media(max-width:513px) {
 
@@ -681,7 +692,12 @@
         .cTsectionContainerTextoTitulo {
             font-size: 23px;
         }
-       
+        .nosotrosGaleriaWidthImgMobile {
+            width: 300px;
+            .nosotrosSection1Titulo {
+                width: 300px;
+            }
+        }
     }
 
   
