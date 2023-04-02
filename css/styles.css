@@ -198,7 +198,9 @@ a .logo {
 
 /*contacto*/
 .contactoFormContainer {
+  margin-bottom: 20px;
   width: 50%;
+  margin-right: 20px;
 }
 
 .contactoContainerInfoTitulos {
@@ -216,6 +218,10 @@ a .logo {
   font-size: 18px;
   font-weight: 300;
   line-height: 15px;
+}
+
+.formContainer {
+  flex-direction: row;
 }
 
 .input {
@@ -923,8 +929,20 @@ body {
     align-items: center;
     justify-content: space-evenly;
   }
+  .formContainer {
+    flex-direction: column !important;
+  }
   .cTsection2ContainerTituloSoles {
     width: auto;
+  }
+  .widthInputContainer {
+    width: 100%;
+  }
+  .contactoMensajePlaceHolderT {
+    width: 900px;
+  }
+  .contactoMensajePlaceHolderET {
+    width: 900px;
   }
   .uk-child-width-1-2\@m > * {
     width: 100%;

@@ -2,8 +2,9 @@
 /*contacto*/
 
 .contactoFormContainer {
-
+    margin-bottom: 20px;
     width: 50%;
+    margin-right: 20px;
 }
 
 .contactoContainerInfoTitulos {
@@ -24,6 +25,11 @@
     font-weight: 300;
     line-height: 15px;
 
+}
+.formContainer{
+ 
+    flex-direction: row;
+  
 }
 .input {
     height: 50px;
