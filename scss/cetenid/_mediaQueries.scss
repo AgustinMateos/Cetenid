@@ -636,6 +636,7 @@
     .footerCetMenuContainerFlex {
         display: flex;
         width: 100%;
+        justify-content: space-evenly;
     }
 
     
@@ -644,7 +645,7 @@
         padding: 0;
         margin: 0px;
         list-style: none;
-        width: 9%;
+        width: 80%;
     }
 
     .footerMenu {
