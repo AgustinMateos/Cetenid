@@ -1489,9 +1489,20 @@ body {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    width: 400px;
+    width: 300px;
     justify-content: space-between;
     flex-direction: column;
+  }
+  .indexSection2Col2 {
+    width: 300px;
+  }
+  .indexSection2Container1 {
+    max-width: 400px;
+  }
+  .indexSection2ContainerCetenid {
+    border-left: 3px solid #BF304A;
+    padding: 10px;
+    margin: 10px;
   }
   .indexSection2MiniContainersTitulo {
     text-align: center;
@@ -1535,6 +1546,9 @@ body {
     text-align: center;
     padding-top: 20px;
   }
+  .indexSection2Container1 {
+    max-width: 350px;
+  }
 }
 @media (max-width: 372px) {
   .indexFooterCoberturaContainer p {
@@ -1563,12 +1577,7 @@ body {
     margin-top: 20px;
   }
 }
-@media (max-width: 329px) {
-  .cTsectionContainerImg img {
-    max-width: 100%;
-  }
-}
-@media (max-width: 335) {
+@media (max-width: 335px) {
   .footerMenu {
     font-family: Quicksand;
     font-size: 13px;
@@ -1577,12 +1586,32 @@ body {
     letter-spacing: 0em;
     text-align: left;
   }
+  .indexSection2ContainerCetenidTextoPrincipal {
+    font-size: 15px;
+  }
   .cTcontainerTexto {
     font-size: 24px;
     line-height: 54px;
   }
   .uk-navbar-nav > li > a {
     font-size: 8px;
+  }
+  .indexSection2Container1 {
+    max-width: 300px;
+  }
+  .indexSection2ContainerCetenid h1 {
+    color: #BF304A;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
+@media (max-width: 329px) {
+  .cTsectionContainerImg img {
+    max-width: 100%;
   }
 }
 @media (max-width: 320px) {
