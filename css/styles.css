@@ -1131,6 +1131,10 @@ body {
   }
 }
 @media (max-width: 852px) {
+  .footerMenu:hover {
+    color: none;
+    box-shadow: none;
+  }
   .indexSection2 {
     display: flex;
     justify-content: space-evenly;
