@@ -264,6 +264,10 @@
         padding-right: 0px;
         margin: 20px;
     }
+    .cTContainerSection1ImgTexto{ 
+        
+        flex-direction: column-reverse !important;
+    }
     
 }
 @media(max-width:823px){
@@ -727,6 +731,13 @@
     .galeriaContainerTituloJugamos p {
         font-size: 20px;
     }
+    .cTsection2ContainerTituloSoles h1 {
+        font-size: 20px;
+    }
+    .cTsectionContainerImg img {
+        height: 350px;
+        
+    }
 }
 
 @media(max-width:380px) {
@@ -819,6 +830,10 @@
       
         max-width: 100%;
         
+    }
+    .cTcontainerTexto {
+        font-size: 20px;
+        line-height: 45px;
     }
 }
 
