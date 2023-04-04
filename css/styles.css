@@ -359,7 +359,7 @@ a .logo {
 }
 
 .cTsectionContainerImg {
-  width: 400px;
+  width: 100%;
 }
 
 .cTContainerTextoWidth {
@@ -369,7 +369,7 @@ a .logo {
 
 .cTsectionContainerImg img {
   height: 450px;
-  max-width: 130%;
+  width: 100%;
   object-fit: cover;
   border-radius: 20px;
   box-shadow: 32px 19px 42px 0px rgba(0, 0, 0, 0.25);
@@ -624,6 +624,12 @@ a:hover {
   box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0.5em 1.3em 1em rgba(0, 0, 0, 0.3);
   border-radius: 50%;
   width: 70px;
+}
+
+.uk-card-body {
+  display: flow-root;
+  padding: 30px 30px;
+  text-align: center;
 }
 
 .strongColor {
