@@ -752,7 +752,7 @@
     .indexFooterCoberturaContainer {
         border: 1px solid #390000;
         display: flex;
-        height: 270px;
+        height: 200px;
         max-width: 300px;
         border-radius: 20px;
         flex-direction: column;
@@ -768,9 +768,9 @@
     @media(max-width:372px) {
         .indexFooterCoberturaContainer p {
             font-family: Quicksand;
-            font-size: 12px;
+            font-size: 10px;
             font-weight: 700;
-            line-height: 45px;
+            line-height: 38px;
             letter-spacing: 0em;
             text-align: center;
             color: #390000;
@@ -852,7 +852,7 @@
     .indexFooterCoberturaContainer {
         border: 1px solid #390000;
         display: flex;
-        height: 240px;
+        height: 200px;
         max-width: 300px;
         border-radius: 20px;
         flex-direction: column;
