@@ -1035,6 +1035,9 @@ body {
     letter-spacing: 0em;
     text-align: center;
   }
+  .footerContainerInfo {
+    width: 230px;
+  }
   .uk-list {
     padding: 0;
     margin: 0px;
@@ -1522,7 +1525,7 @@ body {
   }
   [class*=uk-child-width] > * {
     box-sizing: border-box;
-    width: 100%;
+    width: 90%;
   }
 }
 @media (max-width: 447px) {

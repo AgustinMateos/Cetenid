@@ -112,7 +112,11 @@
         letter-spacing: 0em;
         text-align: center;
     }
-  
+    .footerContainerInfo {
+        
+        width: 230px;
+        
+    }
 
     //footer
     .uk-list {
@@ -689,7 +693,7 @@
     
     [class*=uk-child-width] > * {
         box-sizing: border-box;
-        width: 100%;
+        width: 90%;
     }
 }
 
