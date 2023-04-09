@@ -443,7 +443,6 @@ a .logo {
   width: 780px;
   display: flex;
   justify-content: space-around;
-  font-family: Quicksand;
 }
 
 .cTsection2ContainerTituloSoles h1 {
@@ -454,6 +453,7 @@ a .logo {
   text-align: left;
   color: #390000;
   margin-bottom: 0px;
+  font-family: Quicksand;
 }
 
 .cTcontainerNuestrasTerapiasSoles {
@@ -469,6 +469,8 @@ a .logo {
 
 .imgBorder {
   border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .sectiooon {
@@ -673,6 +675,7 @@ a:hover {
   letter-spacing: 0em;
   text-align: center;
   color: #390000;
+  font-family: Quicksand;
 }
 
 * + .uk-grid-margin,
@@ -945,7 +948,7 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
-    flex-direction: column-reverse;
+    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
   }
@@ -1088,6 +1091,16 @@ body {
     border-radius: 20px;
   }
 }
+@media (max-width: 954px) {
+  .uk-grid {
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 947px) {
+  .uk-child-width-1-2\@s > * {
+    width: 55%;
+  }
+}
 @media (max-width: 871px) {
   .cTcontainerSol {
     display: none;
@@ -1153,7 +1166,7 @@ body {
   }
   [class*=uk-child-width] > * {
     box-sizing: border-box;
-    width: none;
+    width: fit-content;
   }
   .galeriaSection1TituloCont {
     justify-content: center;
@@ -1249,6 +1262,9 @@ body {
     text-align: center;
     margin-right: 0px;
   }
+  .cTsection1Container {
+    margin-top: 10px;
+  }
   .contactoContainerSection1 {
     display: flex;
     flex-wrap: nowrap;
@@ -1256,7 +1272,7 @@ body {
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 20px;
+    margin-top: 0px;
   }
   .contactoContainerInfo {
     display: flex;
@@ -1342,6 +1358,9 @@ body {
   .contactoMensajeInput {
     margin-left: 0px;
   }
+  .cTsection1Container {
+    margin: 20px;
+  }
 }
 @media (max-width: 617px) {
   .contactoFormContainer {
@@ -1414,6 +1433,21 @@ body {
     padding-left: 0px;
   }
 }
+@media (max-width: 533px) {
+  .cTsectionContainerTextoTitulo {
+    font-size: 40px;
+  }
+  .contactoDataContainer h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 80px;
+  }
+  .contactoFormContainer h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 80px;
+  }
+}
 @media (max-width: 529px) {
   .nosotrosGaleriaWidthImgMobile {
     width: 350px;
@@ -1477,9 +1511,6 @@ body {
     letter-spacing: 0em;
     text-align: center;
     color: #390000;
-  }
-  .cTsectionContainerTextoTitulo {
-    font-size: 30px;
   }
   .cTsection2ContainerTituloSoles h1 {
     font-size: 27px;
@@ -1554,6 +1585,11 @@ body {
     width: 90%;
   }
 }
+@media (max-width: 478px) {
+  .cTsectionContainerTextoTitulo {
+    font-size: 30px;
+  }
+}
 @media (max-width: 447px) {
   .indexSection2MiniContainers {
     display: flex;
@@ -1586,9 +1622,6 @@ body {
   }
   .cTsectionContainerImg img {
     height: 396px;
-  }
-  .cTsectionContainerTextoTitulo {
-    font-size: 28px;
   }
   .indexSection2MiniContainersTituloP {
     text-align: center;
@@ -1639,9 +1672,6 @@ body {
     text-align: center;
     color: #390000;
     margin: 10px;
-  }
-  .cTsectionContainerTextoTitulo {
-    font-size: 23px;
   }
   .nosotrosGaleriaWidthImgMobile {
     width: 300px;
