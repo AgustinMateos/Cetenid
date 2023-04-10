@@ -106,7 +106,7 @@
             <div class="contactoFormContainer  ">
                 <h1>CONTACTO</h1>
                 <h5 class="contactoFormContainerTextoContactese">Contáctese y con gusto te asesoramos</h5>
-                <form class="uk-grid-small formContainer" uk-grid>
+                <form class="uk-grid-small formContainer" uk-grid method="post" action="mailto:informatica@cetenid.com">
                     <div class="uk-width-1-1">
                         <input class="input uk-input contactoMensajePlaceHolder contactoFormTexto" type="text"
                             placeholder="Nombre Completo" aria-label="100">
@@ -125,7 +125,7 @@
                         <input class="input uk-input contactoMensajeInput contactoFormTexto" type="text"
                             placeholder="Mensaje" aria-label="100">
                     </div>
-                    <div><button class="contactoButtonEnviar">Enviar</button></div>
+                    <div><input type="submit" value="Enviar" class="contactoButtonEnviar"></input></div>
                 </form>
             </div>
         </section>
