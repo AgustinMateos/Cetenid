@@ -109,7 +109,6 @@ a .logo {
   letter-spacing: 0em;
   text-align: center;
   border-bottom: 1px solid #000000;
-  width: 400px;
 }
 
 .nosotrosSection1TituloTexto {
@@ -696,10 +695,9 @@ a:hover {
 }
 
 .galeriaSection1TituloCont {
-  width: 100%;
   display: flex;
   justify-content: flex-start;
-  margin: 20px 0px 20px;
+  margin: 20px 20px 20px;
 }
 
 * {
