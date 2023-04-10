@@ -1,62 +1,84 @@
-@media(max-width:7000px){
-    .solMobile{
+@media(max-width:7000px) {
+    .solMobile {
         display: none;
     }
+
     .uk-child-width-1-3\@m>* {
-        width: 33,33%;
+        width: 33, 33%;
         padding: 0px;
     }
-    
+
 }
-@media (max-width:1336px){
+
+@media (max-width:1336px) {
     .uk-grid {
         display: flex;
         flex-wrap: wrap;
         margin: 0;
         padding: 0;
         list-style: none;
-       flex-direction: row ;
+        flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
     }
-    .formContainer{flex-direction: column !important;}
+
+    .formContainer {
+        flex-direction: column !important;
+    }
+
     .cTsection2ContainerTituloSoles {
         width: auto;
-        
+
     }
-    .widthInputContainer{width: 100%;}
+
+    .widthInputContainer {
+        width: 100%;
+    }
+
     .contactoMensajePlaceHolderT {
         width: 900px;
     }
+
     .contactoMensajePlaceHolderET {
-        
+
         width: 900px;
     }
+
     .uk-child-width-1-2\@m>* {
         width: 100%;
     }
-    * + .uk-grid-margin, .uk-grid + .uk-grid, .uk-grid > .uk-grid-margin {
-        
+
+    *+.uk-grid-margin,
+    .uk-grid+.uk-grid,
+    .uk-grid>.uk-grid-margin {
+
         padding-left: 0px;
     }
+
     .uk-grid>*>:last-child {
-        
+
         padding-left: none;
     }
+
     .indexSection3Info {
-        
+
         text-align: center;
     }
+
     .cTsectionContainerImg img {
-       
+
         max-width: 100%;
-       
+
     }
 }
-@media (max-width: 1329px){.uk-child-width-1-2\@m>* {
-    width: 100%;
-}}
-@media(max-width:1281px){
+
+@media (max-width: 1329px) {
+    .uk-child-width-1-2\@m>* {
+        width: 100%;
+    }
+}
+
+@media(max-width:1281px) {
     .cTsectionContainerImg img {
         height: 450px;
         max-width: 100%;
@@ -79,6 +101,7 @@
         width: 300px;
         margin-right: 5px;
     }
+
     .uk-card-body {
         display: flow-root;
         padding: 0px 0px;
@@ -112,12 +135,13 @@
         letter-spacing: 0em;
         text-align: center;
     }
+
     .footerContainerInfo {
-        
+
         width: 230px;
-        
+
     }
-   
+
 
     //footer
     .uk-list {
@@ -145,11 +169,16 @@
         letter-spacing: 0em;
         text-align: center;
     }
+
     .cTsectionContainerTexto {
         width: 80%;
     }
-     //galeria
-     .nosotrosGaleriaWidthImgMobile{width: 500px }
+
+    //galeria
+    .nosotrosGaleriaWidthImgMobile {
+        width: 500px
+    }
+
     //footer
     .uk-list {
         padding: 0;
@@ -163,37 +192,46 @@
         margin-right: 20px;
         margin-left: 20px;
     }
-    .uk-grid-item-match>:not([class*=uk-width]), .uk-grid-match>*>:not([class*=uk-width]) {
+
+    .uk-grid-item-match>:not([class*=uk-width]),
+    .uk-grid-match>*>:not([class*=uk-width]) {
         box-sizing: border-box;
         width: 100%;
         flex: auto;
         text-align: center;
     }
+
     .cTsectionContainerImg2 img {
         height: 350px;
         max-width: 100%;
         object-fit: cover;
         border-radius: 20px;
-       
+
     }
 }
 
-@media(max-width:954px){.uk-grid {
-    
-    flex-direction: column-reverse;
-}}
-@media(max-width:947px){
-    .uk-child-width-1-2\@s > * {
+@media(max-width:954px) {
+    .uk-grid {
+
+        flex-direction: column-reverse;
+    }
+}
+
+@media(max-width:947px) {
+    .uk-child-width-1-2\@s>* {
         width: 55%;
     }
 }
+
 @media(max-width:871px) {
     .cTcontainerSol {
         display: none;
     }
+
     .solMobile {
         display: flex;
     }
+
     .cTcontainerNuestrasTerapiasSoles {
         display: flex;
         height: 900px;
@@ -204,6 +242,7 @@
         margin: 13px;
         flex-direction: column;
     }
+
     //navbar
     .uk-navbar {
         display: flex;
@@ -250,54 +289,73 @@
         width: 95%;
         padding-top: 20px;
     }
-    .cTcontainerSol{display: none}
+
+    .cTcontainerSol {
+        display: none
+    }
+
     .cTsectionContainerImg img {
         max-width: 100%;
-        
+
     }
+
     [class*=uk-child-width]>* {
         box-sizing: border-box;
         width: fit-content;
     }
+
     .galeriaSection1TituloCont {
         justify-content: center;
     }
 }
 
-@media(max-width:852px){//index
-    .footerMenu:hover{color: none;
-        box-shadow: none}
+@media(max-width:852px) {
+
+    //index
+    .footerMenu:hover {
+        color: none;
+        box-shadow: none
+    }
+
     .indexSection2 {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         flex-direction: column;
     }
+
     .uk-grid {
         flex-direction: column;
-        
+
     }
-    .uk-child-width-1-2\@s > * {
-        width: 65% ;
+
+    .uk-child-width-1-2\@s>* {
+        width: 65%;
     }
-    .uk-grid-item-match > :not([class*=uk-width]), .uk-grid-match > * > :not([class*=uk-width]) {
+
+    .uk-grid-item-match> :not([class*=uk-width]),
+    .uk-grid-match>*> :not([class*=uk-width]) {
         padding-right: 0px;
         margin: 20px;
     }
-    .cTContainerSection1ImgTexto{ 
-        
+
+    .cTContainerSection1ImgTexto {
+
         flex-direction: column-reverse !important;
     }
+
     .indexFooterCoberturaContainer p {
-        
+
         font-size: 14px;
         margin: 12px;
-        
+
     }
-    
+
 }
-@media(max-width:823px){
-    .uk-child-width-1-3\@m > * { //como trabajamos 
+
+@media(max-width:823px) {
+    .uk-child-width-1-3\@m>* {
+        //como trabajamos 
         width: 100%;
         padding: 0px;
     }
@@ -334,13 +392,15 @@
         text-align: center;
         width: 320px;
     }
+
     .indexSection2ContainerCetenid {
         border-left: 3px solid #BF304A;
         padding: 20px;
         margin: 0px;
     }
+
     .indexSection3Info {
-        
+
         text-align: center;
     }
 }
@@ -365,12 +425,13 @@
         padding-top: 7px;
         border-bottom: 1px solid #000000;
         margin-top: 2px;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
         text-align: center;
         margin-right: 0px;
     }
+
     .cTsection1Container {
-        
+
         margin-top: 10px;
     }
 
@@ -462,94 +523,116 @@
         width: 30px;
     }
 }
-@media(max-width:705px){
+
+@media(max-width:705px) {
     .galeriaContainerTituloJugamos {
         min-height: 500px;
         flex-direction: column;
     }
 }
-@media(max-width:621px){
+
+@media(max-width:621px) {
     .contactoMensajePlaceHolder {
-        
+
         margin-left: 0px;
     }
+
     .contactoMensajePlaceHolderET {
         margin-left: 0px;
     }
+
     .contactoMensajePlaceHolderT {
         margin-left: 0px;
     }
+
     .contactoMensajeInput {
-       
+
         margin-left: 0px;
     }
+
     .cTsection1Container {
         margin: 20px;
     }
 }
-@media(max-width:617px){.contactoFormContainer {
-    
-    margin-right: 0px;
+
+@media(max-width:617px) {
+    .contactoFormContainer {
+
+        margin-right: 0px;
+    }
+
+    .contactoDataContainer {
+
+        padding-left: 0px;
+    }
+
+    .contactoDataContainer h1 {
+        margin-right: 0px;
+    }
+
+    .contactoContainerInfo {
+
+        margin-right: 0px;
+    }
 }
-.contactoDataContainer {
-    
-    padding-left: 0px;
-}
-.contactoDataContainer h1 {
-    margin-right: 0px;
-}
-.contactoContainerInfo {
-    
-    margin-right: 0px;
-}}
-@media(max-width:610px){
+
+@media(max-width:610px) {
     .cTsectionContainerImg img {
         height: 450px;
         max-width: 100%;
         object-fit: cover;
         border-radius: 20px;
     }
+
     .cTsectionContainerImg {
         width: 100%;
     }
-    .uk-child-width-1-3\@m > * {//FOTO PRINCIPAL NOSOTROS
+
+    .uk-child-width-1-3\@m>* {
+        //FOTO PRINCIPAL NOSOTROS
         width: 100%;
-        
+
     }
 }
 
 
 
 ;
-@media(max-width: 595px){
-    .nosotrosSectionTituloEquipo {
-    font-size: 40px;
-   
-}
-.cTcontainerTexto {
-   
-    font-size: 18px;
-    line-height: 34px;
-   
-}
-.cTsection2ContainerTituloSoles h1 {
-    font-size: 32px;
-    
-}
-.indexSection3Info {
-    
-    line-height: 35px;
 
-}
-.indexSection3Info {
-    font-size: 20px;
-    line-height: 49px;
-   
-}
-.indexSection3Info {
-    font-size: 20px;
-    line-height: 40px;
-}
+@media(max-width: 595px) {
+    .nosotrosSectionTituloEquipo {
+        font-size: 40px;
+
+    }
+
+    .cTcontainerTexto {
+
+        font-size: 18px;
+        line-height: 34px;
+
+    }
+
+    .cTsection2ContainerTituloSoles h1 {
+        font-size: 32px;
+
+    }
+
+    .indexSection3Info {
+
+        line-height: 35px;
+
+    }
+
+    .indexSection3Info {
+        font-size: 20px;
+        line-height: 49px;
+
+    }
+
+    .indexSection3Info {
+        font-size: 20px;
+        line-height: 40px;
+    }
 }
 
 @media (max-width:567) {
@@ -563,48 +646,64 @@
         color: #390000;
         margin: 10px;
     }
+
     .indexSection3Info {
         font-size: 12px;
         font-weight: 600;
         line-height: 49px;
-       
+
     }
+
     .uk-grid>* {
         padding-left: 0px;
     }
-  
-    
-    
+
+
+
 }
-@media(max-width:533px){
+
+@media(max-width:533px) {
     .cTsectionContainerTextoTitulo {
-        
+
         font-size: $TitulosPagesFontSizeMobile;
-        
+
     }
+
     .contactoDataContainer h1 {
-      
+
         font-size: $TitulosPagesFontSizeMobile;
         font-weight: 700;
         line-height: 80px;
-       
+
     }
+
     .contactoFormContainer h1 {
-        
+
         font-size: $TitulosPagesFontSizeMobile;
         font-weight: 700;
         line-height: 80px;
-       
-       
+
+
     }
 }
-@media(max-width:529px){
+
+@media(max-width:529px) {
     .nosotrosGaleriaWidthImgMobile {
         width: 350px;
     }
 }
-@media(max-width:513px) {
 
+@media(max-width:513px) {
+    .indexSection2ContainerCetenid h1 {
+        text-align: center;
+    }
+    .indexSection2ContainerCetenidTextoPrincipal {
+        
+        text-align: center;
+    }
+    .indexSection2Container1 {
+        max-width: 400px;
+    }
     .uk-list {
         //footer primera columna
         padding: 0;
@@ -648,17 +747,20 @@
         color: #390000;
         margin: 10px;
     }
+
     .nosotrosSectionEquipoTexto {
         margin: 0px;
         text-align: center;
         padding-left: 0px;
     }
+
     .indexSection3Info {
         font-family: Montserrat;
         font-size: 18px;
         line-height: 30px;
-        
+
     }
+
     .NosotroscontainerTexto {
         font-family: "Noto Serif";
         font-size: 20px;
@@ -668,23 +770,26 @@
         text-align: center;
         color: #390000;
     }
+
     // .cTsectionContainerTextoTitulo {
-       
+
     //     font-size: 30px;
-        
+
     // }
     .cTsection2ContainerTituloSoles h1 {
         font-size: 27px;
     }
+
     .cTsection2ContainerTituloSoles h1 {
-        
+
         text-align: center;
-       
+
     }
+
     .cTcontainerNuestrasTerapiasSolesStyle {
-        
+
         font-size: 20px;
-        
+
     }
 }
 
@@ -692,8 +797,9 @@
     .indexSection2ContainerCetenidTextoPrincipal {
         font-size: 20px;
         line-height: 30px;
-        
+
     }
+
     .uk-navbar-nav>li>a {
         padding: 0 0;
         color: #390000;
@@ -707,6 +813,7 @@
         letter-spacing: 0em;
         text-align: center;
     }
+
     .galeriaContainerTituloJugamos p {
         font-size: 28px;
     }
@@ -725,7 +832,7 @@
         justify-content: space-evenly;
     }
 
-    
+
 
     .uk-list {
         padding: 0;
@@ -751,22 +858,25 @@
     .nosotrosSectionTituloEquipo {
         font-size: 30px;
     }
+
     .uk-grid>* {
         padding-left: 0px;
-        
+
     }
-    
-    [class*=uk-child-width] > * {
+
+    [class*=uk-child-width]>* {
         box-sizing: border-box;
         width: 90%;
     }
 }
-@media(max-width:478px){
+
+@media(max-width:478px) {
     .cTsectionContainerTextoTitulo {
-font-size: $TitulosPagesFontSizeMobile478px;
+        line-height: 40px;
     }
 }
-@media(max-width:447px){
+
+@media(max-width:447px) {
     .indexSection2MiniContainers {
         display: flex;
         flex-wrap: nowrap;
@@ -775,56 +885,67 @@ font-size: $TitulosPagesFontSizeMobile478px;
         justify-content: space-between;
         flex-direction: column;
     }
+
     .indexSection2Col2 {
         width: 300px;
-        
+
     }
+
     .indexSection2Container1 {
         max-width: 400px;
     }
+
     .indexSection2ContainerCetenid {
         border-left: 3px solid #BF304A;
         padding: 10px;
         margin: 10px;
     }
+
     .indexSection2MiniContainersTitulo {
         text-align: center;
-        
+
     }
+
     .nosotrosSection1Titulo {
         font-size: 45px;
         width: 340px;
     }
+
     .indexSection2MiniContainersTituloActRecrea {
-        text-align: center ;
-        
-    }
-    .cTsectionContainerImg img {
-        height: 396px;
-    
-       
+        text-align: center;
+
     }
 
-    
+    .cTsectionContainerImg img {
+        height: 396px;
+
+
+    }
+
+
     .indexSection2MiniContainersTituloP {
         text-align: center;
-        
+
     }
+
     .cTsectionContainerImg img {
         height: 450px;
         max-width: 100%;
         object-fit: cover;
         border-radius: 20px;
     }
+
     .galeriaContainerTituloJugamos p {
         font-size: 20px;
     }
+
     .cTsection2ContainerTituloSoles h1 {
         font-size: 20px;
     }
+
     .cTsectionContainerImg img {
         height: 290px;
-        
+
     }
 }
 
@@ -841,34 +962,44 @@ font-size: $TitulosPagesFontSizeMobile478px;
         text-align: center;
         padding-top: 20px;
     }
+
     .indexSection2Container1 {
         max-width: 350px;
     }
+
     .footerContainerInfo {
         width: 220px;
-    }}
-
-    @media(max-width:372px) {
-        .indexFooterCoberturaContainer p {
-            font-family: Quicksand;
-            font-size: 12px;
-            font-weight: 700;
-            line-height: 38px;
-            letter-spacing: 0em;
-            text-align: center;
-            color: #390000;
-            margin: 10px;
-        }
-        
-        .nosotrosGaleriaWidthImgMobile {
-            width: 300px; }
-         .nosotrosSection1Titulo {
-                width: 300px;
-            }
-       
     }
 
-  
+    .cTsectionContainerTextoTitulo {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media(max-width:372px) {
+    .indexFooterCoberturaContainer p {
+        font-family: Quicksand;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #390000;
+        margin: 10px;
+    }
+
+    .nosotrosGaleriaWidthImgMobile {
+        width: 300px;
+    }
+
+    .nosotrosSection1Titulo {
+        width: 300px;
+    }
+
+}
+
+
 
 @media(max-width:347px) {
 
@@ -876,8 +1007,9 @@ font-size: $TitulosPagesFontSizeMobile478px;
     .uk-list-large>:nth-child(n+2) {
         margin-top: 20px;
     }
-    
+
 }
+
 @media(max-width:335px) {
     .footerMenu {
         font-family: Quicksand;
@@ -887,39 +1019,45 @@ font-size: $TitulosPagesFontSizeMobile478px;
         letter-spacing: 0em;
         text-align: left;
     }
+
     .indexSection2ContainerCetenidTextoPrincipal {
         font-size: 15px;
     }
-    
+
     .cTcontainerTexto {
-        
+
         font-size: 24px;
         line-height: 54px;
-       
-    }.uk-navbar-nav > li > a {
-        
+
+    }
+
+    .uk-navbar-nav>li>a {
+
         font-size: 8px;
     }
+
     .indexSection2Container1 {
         max-width: 300px;
     }
 
-.indexSection2ContainerCetenid h1 {
-    color: #BF304A;
-    font-family: Montserrat;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 78px;
-    letter-spacing: 0em;
-    text-align: left;
-}
-}
-@media(max-width:329px){
-    .cTsectionContainerImg img {
-      
-        max-width: 100%;
-        
+    .indexSection2ContainerCetenid h1 {
+        color: #BF304A;
+        font-family: Montserrat;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 78px;
+        letter-spacing: 0em;
+        text-align: center;
     }
+}
+
+@media(max-width:329px) {
+    .cTsectionContainerImg img {
+
+        max-width: 100%;
+
+    }
+
     .cTcontainerTexto {
         font-size: 20px;
         line-height: 45px;

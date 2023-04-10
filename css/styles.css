@@ -968,7 +968,9 @@ body {
   .uk-child-width-1-2\@m > * {
     width: 100%;
   }
-  * + .uk-grid-margin, .uk-grid + .uk-grid, .uk-grid > .uk-grid-margin {
+  * + .uk-grid-margin,
+  .uk-grid + .uk-grid,
+  .uk-grid > .uk-grid-margin {
     padding-left: 0px;
   }
   .uk-grid > * > :last-child {
@@ -1076,7 +1078,8 @@ body {
     margin-right: 20px;
     margin-left: 20px;
   }
-  .uk-grid-item-match > :not([class*=uk-width]), .uk-grid-match > * > :not([class*=uk-width]) {
+  .uk-grid-item-match > :not([class*=uk-width]),
+  .uk-grid-match > * > :not([class*=uk-width]) {
     box-sizing: border-box;
     width: 100%;
     flex: auto;
@@ -1187,7 +1190,8 @@ body {
   .uk-child-width-1-2\@s > * {
     width: 65%;
   }
-  .uk-grid-item-match > :not([class*=uk-width]), .uk-grid-match > * > :not([class*=uk-width]) {
+  .uk-grid-item-match > :not([class*=uk-width]),
+  .uk-grid-match > * > :not([class*=uk-width]) {
     padding-right: 0px;
     margin: 20px;
   }
@@ -1256,7 +1260,7 @@ body {
     padding-top: 7px;
     border-bottom: 1px solid #000000;
     margin-top: 2px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     text-align: center;
     margin-right: 0px;
   }
@@ -1452,6 +1456,15 @@ body {
   }
 }
 @media (max-width: 513px) {
+  .indexSection2ContainerCetenid h1 {
+    text-align: center;
+  }
+  .indexSection2ContainerCetenidTextoPrincipal {
+    text-align: center;
+  }
+  .indexSection2Container1 {
+    max-width: 400px;
+  }
   .uk-list {
     padding: 0;
     margin: 0px;
@@ -1585,7 +1598,7 @@ body {
 }
 @media (max-width: 478px) {
   .cTsectionContainerTextoTitulo {
-    font-size: 30px;
+    line-height: 40px;
   }
 }
 @media (max-width: 447px) {
@@ -1659,6 +1672,10 @@ body {
   .footerContainerInfo {
     width: 220px;
   }
+  .cTsectionContainerTextoTitulo {
+    font-size: 30px;
+    line-height: 40px;
+  }
 }
 @media (max-width: 372px) {
   .indexFooterCoberturaContainer p {
@@ -1713,7 +1730,7 @@ body {
     font-weight: 700;
     line-height: 78px;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: center;
   }
 }
 @media (max-width: 329px) {
