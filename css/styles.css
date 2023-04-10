@@ -1346,6 +1346,12 @@ body {
     min-height: 500px;
     flex-direction: column;
   }
+  .indexSection2ContainerCetenid h1 {
+    text-align: center;
+  }
+  .indexSection2ContainerCetenidTextoPrincipal {
+    text-align: center;
+  }
 }
 @media (max-width: 621px) {
   .contactoMensajePlaceHolder {
@@ -1538,6 +1544,9 @@ body {
     font-size: 20px;
     line-height: 30px;
   }
+  .indexsection3 {
+    margin: 10px;
+  }
   .uk-navbar-nav > li > a {
     padding: 0 0;
     color: #390000;
@@ -1708,7 +1717,7 @@ body {
     font-weight: 700;
     line-height: 20px;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: center;
   }
   .indexSection2ContainerCetenidTextoPrincipal {
     font-size: 15px;
