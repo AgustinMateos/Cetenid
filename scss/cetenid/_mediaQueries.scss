@@ -40,7 +40,6 @@
     }
 
     .contactoMensajePlaceHolderET {
-
         width: 900px;
     }
 
@@ -51,22 +50,18 @@
     *+.uk-grid-margin,
     .uk-grid+.uk-grid,
     .uk-grid>.uk-grid-margin {
-
         padding-left: 0px;
     }
 
     .uk-grid>*>:last-child {
-
         padding-left: none;
     }
 
     .indexSection3Info {
-
         text-align: center;
     }
 
     .cTsectionContainerImg img {
-
         max-width: 100%;
 
     }
@@ -139,9 +134,7 @@
     .footerContainerInfo {
 
         width: 230px;
-
     }
-
 
     //footer
     .uk-list {
@@ -188,7 +181,6 @@
     }
 
     .indexFooterContainer {
-
         margin-right: 20px;
         margin-left: 20px;
     }
@@ -296,7 +288,6 @@
 
     .cTsectionContainerImg img {
         max-width: 100%;
-
     }
 
     [class*=uk-child-width]>* {
@@ -340,15 +331,12 @@
     }
 
     .cTContainerSection1ImgTexto {
-
         flex-direction: column-reverse !important;
     }
 
     .indexFooterCoberturaContainer p {
-
         font-size: 14px;
         margin: 12px;
-
     }
 
 }
@@ -365,8 +353,6 @@
 @media(max-width:783px) {
 
     //footer
-
-
     .indexFooterContainer {
         display: flex;
         justify-content: space-evenly;
@@ -400,7 +386,6 @@
     }
 
     .indexSection3Info {
-
         text-align: center;
     }
 }
@@ -431,7 +416,6 @@
     }
 
     .cTsection1Container {
-
         margin-top: 10px;
     }
 
@@ -471,6 +455,7 @@
         text-align: center;
         left: 763px;
         top: 291px;
+       
     }
 
     .contactoFormContainerTextoContactese {
@@ -485,10 +470,10 @@
 
     .contactoFormContainer {
         width: 80%;
+        
     }
 
     .contactoMensajePlaceHolderET {
-
         width: 100%;
         text-align: center;
     }
@@ -518,9 +503,7 @@
 
 
     .whatsapp img {
-
-
-        width: 30px;
+     width: 30px;
     }
 }
 
@@ -529,10 +512,11 @@
         min-height: 500px;
         flex-direction: column;
     }
+
     .indexSection2ContainerCetenid h1 {
-      
         text-align: center;
     }
+
     .indexSection2ContainerCetenidTextoPrincipal {
         text-align: center;
     }
@@ -564,7 +548,6 @@
 
 @media(max-width:617px) {
     .contactoFormContainer {
-
         margin-right: 0px;
     }
 
@@ -578,7 +561,6 @@
     }
 
     .contactoContainerInfo {
-
         margin-right: 0px;
     }
 }
@@ -625,7 +607,6 @@
     }
 
     .indexSection3Info {
-
         line-height: 35px;
 
     }
@@ -677,7 +658,6 @@
     }
 
     .contactoDataContainer h1 {
-
         font-size: $TitulosPagesFontSizeMobile;
         font-weight: 700;
         line-height: 80px;
@@ -685,7 +665,6 @@
     }
 
     .contactoFormContainer h1 {
-
         font-size: $TitulosPagesFontSizeMobile;
         font-weight: 700;
         line-height: 80px;
@@ -704,13 +683,15 @@
     .indexSection2ContainerCetenid h1 {
         text-align: center;
     }
+
     .indexSection2ContainerCetenidTextoPrincipal {
-        
         text-align: center;
     }
+
     .indexSection2Container1 {
         max-width: 400px;
     }
+
     .uk-list {
         //footer primera columna
         padding: 0;
@@ -807,7 +788,11 @@
         line-height: 30px;
 
     }
-    .indexsection3{margin: 10px;}
+
+    .indexsection3 {
+        margin: 10px;
+    }
+
     .uk-navbar-nav>li>a {
         padding: 0 0;
         color: #390000;
@@ -877,15 +862,19 @@
         width: 90%;
     }
 }
-@media(max-width:482px){
-    [data-uk-cover], [uk-cover] {
+
+@media(max-width:482px) {
+
+    [data-uk-cover],
+    [uk-cover] {
         max-width: none;
         position: absolute;
-       
-        
-     
+
+
+
     }
 }
+
 @media(max-width:478px) {
     .cTsectionContainerTextoTitulo {
         line-height: 40px;
@@ -916,10 +905,12 @@
         padding: 10px;
         margin: 10px;
     }
+
     .contactoButtonEnviar {
         width: 190px;
-       
+
     }
+
     .indexSection2MiniContainersTitulo {
         text-align: center;
 
@@ -1026,9 +1017,9 @@
     .uk-list-large>:nth-child(n+2) {
         margin-top: 20px;
     }
-    
-       
-        
+
+
+
 }
 
 @media(max-width:335px) {
@@ -1044,7 +1035,7 @@
     .indexSection2ContainerCetenidTextoPrincipal {
         font-size: 15px;
     }
-    
+
     .cTcontainerTexto {
 
         font-size: 24px;
@@ -1070,9 +1061,9 @@
         letter-spacing: 0em;
         text-align: center;
     }
-    
-        
-        
+
+
+
 }
 
 @media(max-width:329px) {

@@ -342,7 +342,7 @@ a .logo {
 
 .contactoMensajePlaceHolderT {
   height: 60px;
-  width: 360px;
+  width: 400px;
 }
 
 /*como trabajamos*/
@@ -1607,7 +1607,8 @@ body {
   }
 }
 @media (max-width: 482px) {
-  [data-uk-cover], [uk-cover] {
+  [data-uk-cover],
+  [uk-cover] {
     max-width: none;
     position: absolute;
   }
