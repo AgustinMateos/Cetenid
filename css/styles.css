@@ -1606,6 +1606,12 @@ body {
     width: 90%;
   }
 }
+@media (max-width: 482px) {
+  [data-uk-cover], [uk-cover] {
+    max-width: none;
+    position: absolute;
+  }
+}
 @media (max-width: 478px) {
   .cTsectionContainerTextoTitulo {
     line-height: 40px;
@@ -1630,6 +1636,9 @@ body {
     border-left: 3px solid #BF304A;
     padding: 10px;
     margin: 10px;
+  }
+  .contactoButtonEnviar {
+    width: 190px;
   }
   .indexSection2MiniContainersTitulo {
     text-align: center;

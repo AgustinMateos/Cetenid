@@ -877,7 +877,15 @@
         width: 90%;
     }
 }
-
+@media(max-width:482px){
+    [data-uk-cover], [uk-cover] {
+        max-width: none;
+        position: absolute;
+       
+        
+     
+    }
+}
 @media(max-width:478px) {
     .cTsectionContainerTextoTitulo {
         line-height: 40px;
@@ -908,7 +916,10 @@
         padding: 10px;
         margin: 10px;
     }
-
+    .contactoButtonEnviar {
+        width: 190px;
+       
+    }
     .indexSection2MiniContainersTitulo {
         text-align: center;
 
@@ -1015,7 +1026,9 @@
     .uk-list-large>:nth-child(n+2) {
         margin-top: 20px;
     }
-
+    
+       
+        
 }
 
 @media(max-width:335px) {
@@ -1057,6 +1070,9 @@
         letter-spacing: 0em;
         text-align: center;
     }
+    
+        
+        
 }
 
 @media(max-width:329px) {
