@@ -938,6 +938,10 @@ body {
     width: 33, 33%;
     padding: 0px;
   }
+  .contactoMensajePlaceHolderT {
+    height: 60px;
+    width: 440px;
+  }
 }
 @media (max-width: 1336px) {
   .uk-grid {
