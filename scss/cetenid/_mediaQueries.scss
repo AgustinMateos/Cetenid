@@ -147,7 +147,10 @@
         width: 230px;
     }
 }
-
+@media(max-width:978px){.nosotrosSectionEquipoTexto2 {
+    height: 270px;
+  
+}}
 
 @media (max-width:962px) {
 
@@ -1003,7 +1006,12 @@
 
 }
 
-
+@media(max-width:374px){
+    .nosotrosSectionEquipoTexto2 {
+        height: 280px;
+       
+    }
+}
 
 @media(max-width:347px) {
 
@@ -1070,6 +1078,10 @@
     .cTcontainerTexto {
         font-size: 20px;
         line-height: 45px;
+    }
+    .nosotrosSectionEquipoTexto2 {
+        height: 290px;
+        padding-top: 30px;
     }
 }
 

@@ -111,6 +111,11 @@ a .logo {
   border-bottom: 1px solid #000000;
 }
 
+.nosotrosSectionEquipoTexto2 {
+  height: 250px;
+  padding-top: 30px;
+}
+
 .nosotrosSection1TituloTexto {
   width: 50%;
   padding-top: 20px;
@@ -171,6 +176,7 @@ a .logo {
   letter-spacing: 0em;
   text-align: center;
   color: #390000;
+  margin-top: 15px;
 }
 
 .nosotrosTextoProfesionalesAle {
@@ -684,7 +690,7 @@ a:hover {
 }
 
 .galeriaImagenes img {
-  height: 250px;
+  height: 275px;
   object-fit: cover;
   object-position: center;
 }
@@ -1050,6 +1056,11 @@ body {
     margin: 0px;
     list-style: none;
     width: 230px;
+  }
+}
+@media (max-width: 978px) {
+  .nosotrosSectionEquipoTexto2 {
+    height: 270px;
   }
 }
 @media (max-width: 962px) {
@@ -1719,6 +1730,11 @@ body {
     width: 300px;
   }
 }
+@media (max-width: 374px) {
+  .nosotrosSectionEquipoTexto2 {
+    height: 280px;
+  }
+}
 @media (max-width: 347px) {
   .uk-list-large > * > ul,
   .uk-list-large > :nth-child(n+2) {
@@ -1764,6 +1780,10 @@ body {
   .cTcontainerTexto {
     font-size: 20px;
     line-height: 45px;
+  }
+  .nosotrosSectionEquipoTexto2 {
+    height: 290px;
+    padding-top: 30px;
   }
 }
 @media (max-width: 320px) {
