@@ -1064,6 +1064,9 @@ body {
   }
 }
 @media (max-width: 962px) {
+  .underline::before {
+    display: none;
+  }
   .uk-navbar-nav > li > a {
     padding: 0 0;
     color: #390000;
@@ -1164,7 +1167,7 @@ body {
     transition: 0.1s ease-in-out;
     position: relative;
     font-family: Quicksand;
-    font-size: 15px;
+    font-size: 19px;
     font-weight: 430;
     line-height: 20px;
     letter-spacing: 0em;
@@ -1384,6 +1387,9 @@ body {
   .cTsection1Container {
     margin: 20px;
   }
+  .uk-navbar-nav > li > a {
+    font-size: 17px;
+  }
 }
 @media (max-width: 617px) {
   .contactoFormContainer {
@@ -1564,17 +1570,7 @@ body {
     margin: 10px;
   }
   .uk-navbar-nav > li > a {
-    padding: 0 0;
-    color: #390000;
-    text-transform: uppercase;
-    transition: 0.1s ease-in-out;
-    position: relative;
-    font-family: Quicksand;
-    font-size: 10px;
-    font-weight: 430;
-    line-height: 20px;
-    letter-spacing: 0em;
-    text-align: center;
+    font-size: 14px;
   }
   .galeriaContainerTituloJugamos p {
     font-size: 28px;
@@ -1626,6 +1622,9 @@ body {
   [uk-cover] {
     max-width: none;
     position: absolute;
+  }
+  .uk-navbar-nav > li > a {
+    font-size: 12px;
   }
 }
 @media (max-width: 478px) {
@@ -1688,6 +1687,11 @@ body {
     height: 290px;
   }
 }
+@media (max-width: 412px) {
+  .uk-navbar-nav > li > a {
+    font-size: 11px;
+  }
+}
 @media (max-width: 380px) {
   .indexFooterCoberturaContainer {
     border: 1px solid #390000;
@@ -1711,6 +1715,9 @@ body {
     font-size: 30px;
     line-height: 40px;
   }
+  .uk-navbar-nav > li > a {
+    font-size: 10.5px;
+  }
 }
 @media (max-width: 372px) {
   .indexFooterCoberturaContainer p {
@@ -1728,6 +1735,9 @@ body {
   }
   .nosotrosSection1Titulo {
     width: 300px;
+  }
+  .uk-navbar-nav > li > a {
+    font-size: 10px;
   }
 }
 @media (max-width: 374px) {
@@ -1758,7 +1768,7 @@ body {
     line-height: 54px;
   }
   .uk-navbar-nav > li > a {
-    font-size: 8px;
+    font-size: 9px;
   }
   .indexSection2Container1 {
     max-width: 300px;
@@ -1798,5 +1808,13 @@ body {
     justify-content: center;
     text-align: center;
     padding-top: 20px;
+  }
+  .uk-navbar-nav > li > a {
+    font-size: 9px;
+  }
+}
+@media (max-width: 318px) {
+  .uk-navbar-nav > li > a {
+    font-size: 8px;
   }
 }/*# sourceMappingURL=styles.css.map */
