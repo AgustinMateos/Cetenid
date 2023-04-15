@@ -354,6 +354,17 @@ a .logo {
   width: 400px;
 }
 
+.mensajeForm {
+  font-family: Quicksand;
+  font-size: 29px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #390000;
+  text-align: center;
+}
+
 /*como trabajamos*/
 .cTsection1Container {
   margin: 40px;
