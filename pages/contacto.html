@@ -138,15 +138,16 @@
                 <h1>CETENID</h1>
                 <h5 class="contactoFormContainerTextoContactese">Contactate y con gusto te asesoramos.</h5>
                 <form id="my-form" action="https://formspree.io/f/mpzeobbn" method="POST"  class=" formContainer"  >
-                 <input type="text" name="name" class="input uk-input contactoMensajePlaceHolder contactoFormTexto " placeholder="Nombre Completo" aria-label="100" />
+                 <input type="text" name="name" class="input uk-input contactoMensajePlaceHolder contactoFormTexto " placeholder="Nombre Completo" aria-label="100" required/>
                    
                <input type="email" name="email"class="input uk-input contactoMensajePlaceHolderET contactoFormTexto"
-                    placeholder="Email" aria-label="50" />
+                    placeholder="Email" aria-label="50" required />
                     
                    <input type="number" name="telefono"class="input uk-input contactoMensajePlaceHolderET contactoFormTexto"
-                    placeholder="Telefono" aria-label="50" />
-                   <input type="text" name="message" class="input uk-input contactoMensajeInput contactoFormTexto" 
-                    placeholder="Mensaje" aria-label="100"/>
+                    placeholder="Telefono" aria-label="50" required />
+                   <textarea type="text"cols="30" rows="10" name="message" class="input uk-input contactoMensajeInput contactoFormTexto" 
+                    placeholder="Mensaje" aria-label="100" required></textarea>
+
                     <button id="my-form-button" class="contactoButtonEnviar">Enviar</button>
                     
                     <p class="mensajeForm" id="my-form-status"></p>
