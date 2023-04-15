@@ -117,7 +117,7 @@ a .logo {
 }
 
 .nosotrosSection1TituloTexto {
-  width: 50%;
+  width: 70%;
   padding-top: 20px;
 }
 
@@ -1213,6 +1213,9 @@ body {
   .footerMenu:hover {
     color: none;
     box-shadow: none;
+  }
+  .NosotroscontainerTexto {
+    margin: 20px;
   }
   .indexSection2 {
     display: flex;
