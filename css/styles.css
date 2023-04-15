@@ -1333,6 +1333,7 @@ body {
   }
   .contactoFormContainer {
     width: 80%;
+    margin-right: 0px !important;
   }
   .contactoMensajePlaceHolderET {
     width: 100%;
