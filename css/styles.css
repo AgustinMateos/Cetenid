@@ -975,7 +975,7 @@ body {
     width: 900px;
   }
   .contactoMensajePlaceHolderET {
-    width: 900px;
+    width: none;
   }
   .uk-child-width-1-2\@m > * {
     width: 100%;
@@ -1021,6 +1021,9 @@ body {
     margin-bottom: 0px;
     width: 300px;
     margin-right: 5px;
+  }
+  .contactoMensajePlaceHolderET {
+    width: none;
   }
   .uk-card-body {
     display: flow-root;

@@ -43,7 +43,7 @@
     }
 
     .contactoMensajePlaceHolderET {
-        width: 900px;
+        width: none;
     }
 
     .uk-child-width-1-2\@m>* {
@@ -98,6 +98,9 @@
         margin-bottom: 0px;
         width: 300px;
         margin-right: 5px;
+    }
+    .contactoMensajePlaceHolderET {
+        width: none;
     }
 
     .uk-card-body {
