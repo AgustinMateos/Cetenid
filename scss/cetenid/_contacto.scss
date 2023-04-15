@@ -27,9 +27,9 @@
 
 }
 .formContainer{
- 
+     text-align: center;
     flex-direction: row;
-  
+
 }
 .input {
     height: 50px;
@@ -142,7 +142,7 @@
     line-height: 14px;
 }
 
-.contactoMensajeInput{height: 120px;}
+.contactoMensajeInput{height: 120px;  margin-top: 30px!important}
 .contactoMensajePlaceHolder{height: 60px;}
-.contactoMensajePlaceHolderET{height: 60px; width: 340px;}
+.contactoMensajePlaceHolderET{height: 60px; width: 49%;  margin-top: 30px!important; }
 .contactoMensajePlaceHolderT{height: 60px; width: 400px;}

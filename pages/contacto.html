@@ -104,7 +104,7 @@
                 alt="imagen logo whatsapp para contactarse con cetenid" width="70px"></a>
         <section class="contactoContainerSection1">
             <div class="contactoDataContainer">
-                <h1>CETENID</h1>
+                <h1>CONTACTO</h1>
                 <ul class="contactoContainerInfo">
                     <li>
                         <h5 class="contactoContainerInfoTitulos">Dirección:</h5>
@@ -125,18 +125,34 @@
                     </li>
                     <li>
                         <h5 class="contactoContainerInfoTitulos">Horarios:</h5>
-                        <p class="contactoContainerInfoTitulosP">Lunes a Viernes de 8:30 hs. a 15.30 hs.</p>
+                        <p class="contactoContainerInfoTitulosP">Lunes a Viernes de 8:30 a 15.30 hs.</p>
                     </li>
                     <li>
                         <h5 class="contactoContainerInfoTitulos">Email:</h5>
-                        <p class="contactoContainerInfoTitulosP">cetenidcetenid@gmail.com</p>
+                        <p class="contactoContainerInfoTitulosP">info@cetenid.com</p>
                     </li>
                 </ul>
             </div>
+            
             <div class="contactoFormContainer">
-                <h1>CONTACTO</h1>
-                <h5 class="contactoFormContainerTextoContactese">Contactate y con gusto te asesoramos</h5>
-                <form class="uk-grid-small formContainer" uk-grid >
+                <h1>CETENID</h1>
+                <h5 class="contactoFormContainerTextoContactese">Contactate y con gusto te asesoramos.</h5>
+                <form id="my-form" action="https://formspree.io/f/mpzeobbn" method="POST"  class=" formContainer"  >
+                 <input type="text" name="name" class="input uk-input contactoMensajePlaceHolder contactoFormTexto " placeholder="Nombre Completo" aria-label="100" />
+                   
+               <input type="email" name="email"class="input uk-input contactoMensajePlaceHolderET contactoFormTexto"
+                    placeholder="Email" aria-label="50" />
+                    
+                   <input type="number" name="telefono"class="input uk-input contactoMensajePlaceHolderET contactoFormTexto"
+                    placeholder="Telefono" aria-label="50" />
+                   <input type="text" name="message" class="input uk-input contactoMensajeInput contactoFormTexto" 
+                    placeholder="Mensaje" aria-label="100"/>
+                    <button id="my-form-button" class="contactoButtonEnviar">Enviar</button>
+                    
+                    <p id="my-form-status"></p>
+                  </form>
+                <!-- <form id="form" class="uk-grid-small formContainer" uk-grid  action="https://formspree.io/f/mpzeobbn"
+                method="POST">
                     <div class="uk-width-1-1">
                         <input class="input uk-input contactoMensajePlaceHolder contactoFormTexto" type="text"
                             placeholder="Nombre Completo" aria-label="100">
@@ -156,7 +172,7 @@
                             placeholder="Mensaje" aria-label="100">
                     </div>
                     <div><button  class="contactoButtonEnviar">Enviar</button></div>
-                </form>
+                </form> -->
             </div>
         </section>
         <div class="uk-cover-container">
@@ -178,7 +194,7 @@
                     </li>
                     <li>
                         <h5 class="contactoContainerInfoTitulos">Email</h5>
-                        <p class="contactoContainerInfoTitulosP">cetenidcetenid@gmail.com</p>
+                        <p class="contactoContainerInfoTitulosP">info@gcetenid.com</p>
                     </li>
                     <li>
                         <h5 class="contactoContainerInfoTitulos">Horarios</h5>
@@ -205,6 +221,10 @@
             </div>
         </div>
     </footer>
+    
+    <script src="../js/form.js" ></script>
+    
+    
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.6/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.6/dist/js/uikit-icons.min.js"></script>
 </body>

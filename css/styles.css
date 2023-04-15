@@ -226,6 +226,7 @@ a .logo {
 }
 
 .formContainer {
+  text-align: center;
   flex-direction: row;
 }
 
@@ -335,6 +336,7 @@ a .logo {
 
 .contactoMensajeInput {
   height: 120px;
+  margin-top: 30px !important;
 }
 
 .contactoMensajePlaceHolder {
@@ -343,7 +345,8 @@ a .logo {
 
 .contactoMensajePlaceHolderET {
   height: 60px;
-  width: 340px;
+  width: 49%;
+  margin-top: 30px !important;
 }
 
 .contactoMensajePlaceHolderT {
@@ -686,7 +689,7 @@ a:hover {
 * + .uk-grid-margin,
 .uk-grid + .uk-grid,
 .uk-grid > .uk-grid-margin {
-  margin-top: 0px;
+  margin-top: 30px;
 }
 
 .galeriaImagenes img {
@@ -828,7 +831,6 @@ a:hover {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  justify-content: space-evenly;
   /*error*/
 }
 
