@@ -446,7 +446,7 @@ a .logo {
   color: #BF304A;
   border-bottom: 1px solid #000000;
   text-align: center;
-  width: 100%;
+  width: 80%;
 }
 
 .cTcontainerNuestrasTerapiasSolesStyle {
@@ -1079,6 +1079,7 @@ body {
 @media (max-width: 978px) {
   .nosotrosSectionEquipoTexto2 {
     height: 270px;
+    margin: 20px;
   }
 }
 @media (max-width: 962px) {
@@ -1203,7 +1204,7 @@ body {
   }
   [class*=uk-child-width] > * {
     box-sizing: border-box;
-    width: fit-content;
+    width: none;
   }
   .galeriaSection1TituloCont {
     justify-content: center;
@@ -1636,7 +1637,7 @@ body {
   }
   [class*=uk-child-width] > * {
     box-sizing: border-box;
-    width: 90%;
+    width: 100%;
   }
 }
 @media (max-width: 482px) {

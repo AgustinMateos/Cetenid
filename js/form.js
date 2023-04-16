@@ -12,7 +12,7 @@ async function handleSubmit(event) {
     }
   }).then(response => {
     if (response.ok) {
-      status.innerHTML = "Gracias por contactarse!";
+      status.innerHTML = "✔ Gracias por contactarse!";
       form.reset()
     } else {
       response.json().then(data => {

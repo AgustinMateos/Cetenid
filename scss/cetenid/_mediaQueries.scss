@@ -152,6 +152,7 @@
 }
 @media(max-width:978px){.nosotrosSectionEquipoTexto2 {
     height: 270px;
+    margin: 20px;
   
 }}
 
@@ -303,7 +304,7 @@
 
     [class*=uk-child-width]>* {
         box-sizing: border-box;
-        width: fit-content;
+        width:none;
     }
 
     .galeriaSection1TituloCont {
@@ -861,7 +862,7 @@
 
     [class*=uk-child-width]>* {
         box-sizing: border-box;
-        width: 90%;
+        width: 100%;
     }
 }
 
