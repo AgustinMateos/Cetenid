@@ -1129,6 +1129,13 @@ body {
     border-radius: 20px;
   }
 }
+@media (max-width: 959px) {
+  .galeriaSection1TituloCont {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+  }
+}
 @media (max-width: 954px) {
   .uk-grid {
     flex-direction: column-reverse;

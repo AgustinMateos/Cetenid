@@ -101,10 +101,13 @@
     <main>
         <a class="whatsapp" href="https://wa.me/1558937466" target="_blank">
             <img src="../imagenes/iconografia/iconosWhatsapp/whatsappOpcionDos.png"
-                alt="imagen logo whatsapp para contactarse con cetenid" width="70px"></a>
+                alt="imagen logo whatsapp para contactarse con cetenid haedo" width="70px"></a>
         <section class="contactoContainerSection1">
             <div class="contactoDataContainer">
-                <h1>CONTACTO</h1>
+                <div class="uk-child-width-1-2@m "><div  uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+                     <h1>CONTACTO</h1>
+                </div></div>
+               
                 <ul class="contactoContainerInfo">
                     <li>
                         <h5 class="contactoContainerInfoTitulos">Dirección:</h5>
@@ -135,7 +138,9 @@
             </div>
             
             <div class="contactoFormContainer">
-                <h1>CETENID</h1>
+              <div class="uk-child-width-1-2@m"><div  uk-scrollspy="cls: uk-animation-slide-right; repeat: true"><h1>CETENID</h1></div></div>
+                
+                
                 <h5 class="contactoFormContainerTextoContactese">Contactate y con gusto te asesoramos.</h5>
                 <form id="my-form" action="https://formspree.io/f/mpzeobbn" method="POST"  class=" formContainer"  >
                  <input type="text" name="name" class="input uk-input contactoMensajePlaceHolder contactoFormTexto " placeholder="Nombre Completo" aria-label="100" required/>
