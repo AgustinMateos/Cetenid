@@ -213,7 +213,8 @@ a .logo {
   color: #390000;
 }
 
-.uk-grid-column-small > *, .uk-grid-small > * {
+.uk-grid-column-small > *,
+.uk-grid-small > * {
   padding-left: 1px;
 }
 

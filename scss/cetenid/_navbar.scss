@@ -1,4 +1,3 @@
-
 .uk-navbar-nav>li>a {
     padding: 0 0;
     color: #390000;
@@ -20,7 +19,11 @@
     text-transform: uppercase;
 
 }
-.navbarContacto{margin-right: 20px;}
+
+.navbarContacto {
+    margin-right: 20px;
+}
+
 .underline::before {
     content: "";
     /* Añadir un elemento vacío antes del texto */

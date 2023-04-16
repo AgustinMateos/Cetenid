@@ -55,12 +55,13 @@
     height: 100%;
     background-color: #e5e5e5;
     opacity: 0px;
-    
+
 
 }
 
 .nosotrosGaleriaWidthImgMobile1:hover a img {
-    transform: scale(1.1);transition: 1s ease all;
+    transform: scale(1.1);
+    transition: 1s ease all;
 }
 
 .nosotrosGaleriaWidthImgMobile1:hover::after {
@@ -80,4 +81,3 @@
 .galeriaImagenes:hover img {
     transform: scale(0.9);
 }
-
