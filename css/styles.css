@@ -119,8 +119,13 @@ a .logo {
 }
 
 .nosotrosSection1TituloTexto {
-  width: 70%;
+  width: 73%;
   padding-top: 20px;
+}
+
+.NosotroscontainerTexto::first-letter {
+  color: #390000;
+  font-size: 30px;
 }
 
 .nosotrosSection1TituloTextoContainer {
@@ -384,6 +389,11 @@ a .logo {
 
 .cTsectionContainerImg {
   width: 100%;
+}
+
+.cTcontainerTexto::first-letter {
+  color: #390000;
+  font-size: 30px;
 }
 
 .cTContainerTextoWidth {
@@ -974,6 +984,11 @@ body {
 .carrouselimgli {
   justify-self: stretch;
   align-self: stretch;
+}
+
+.indexSection2ContainerCetenidTextoPrincipal::first-letter {
+  color: #390000;
+  font-size: 35px;
 }
 
 @media (max-width: 7000px) {

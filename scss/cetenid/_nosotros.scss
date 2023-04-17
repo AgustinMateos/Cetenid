@@ -51,9 +51,13 @@
 }
 
 .nosotrosSection1TituloTexto {
-    width: 70%;
+    width: 73%;
     padding-top: 20px;
 
+}
+.NosotroscontainerTexto::first-letter{
+    color:#390000;
+    font-size:30px ;
 }
 
 .nosotrosSection1TituloTextoContainer {
