@@ -61,8 +61,10 @@
 
 
 a .logo {
-    max-height: 325px;
+    max-height: 125px;
     object-fit: cover;
+    overflow: hidden;
+    width: 360px;
 }
 
 .uk-navbar-nav>li.uk-active>a {
